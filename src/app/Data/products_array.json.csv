@@ -1,0 +1,660 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Unit Price Total Measure,Unit Price Total Measure Unit,Unit Price Base Measure,Unit Price Base Measure Unit,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Google Shopping / Google Product Category,Google Shopping / Gender,Google Shopping / Age Group,Google Shopping / MPN,Google Shopping / Condition,Google Shopping / Custom Product,Google Shopping / Custom Label 0,Google Shopping / Custom Label 1,Google Shopping / Custom Label 2,Google Shopping / Custom Label 3,Google Shopping / Custom Label 4,Google: Custom Product (product.metafields.mm-google-shopping.custom_product),Product rating count (product.metafields.reviews.rating_count),Age group (product.metafields.shopify.age-group),Clothing features (product.metafields.shopify.clothing-features),Color (product.metafields.shopify.color-pattern),Fabric (product.metafields.shopify.fabric),Neckline (product.metafields.shopify.neckline),Size (product.metafields.shopify.size),Sleeve length type (product.metafields.shopify.sleeve-length-type),Target gender (product.metafields.shopify.target-gender),Top length type (product.metafields.shopify.top-length-type),Complementary products (product.metafields.shopify--discovery--product_recommendation.complementary_products),Related products (product.metafields.shopify--discovery--product_recommendation.related_products),Related products settings (product.metafields.shopify--discovery--product_recommendation.related_products_display),Search product boosts (product.metafields.shopify--discovery--product_search_boost.queries),Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+beige-basic-oversized-tee,Beige Basic Oversized Tee,"<article class=""text-token-text-primary w-full focus:outline-none scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]"" dir=""auto"" data-turn-id=""request-WEB:0838d10a-7284-481a-8896-d4d6a43b2164-13"" data-testid=""conversation-turn-28"" data-scroll-anchor=""true"" data-turn=""assistant"" tabindex=""-1"">
+<div class=""text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] @[37rem]:[--thread-content-margin:--spacing(6)] @[72rem]:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)"">
+<div class=""[--thread-content-max-width:32rem] @[34rem]:[--thread-content-max-width:40rem] @[64rem]:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn"" tabindex=""-1"">
+<div class=""flex max-w-full flex-col grow"">
+<div data-message-author-role=""assistant"" data-message-id=""ceca8499-be92-40a7-bd47-8b144e62d91c"" dir=""auto"" class=""min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-5"" data-message-model-slug=""gpt-5"">
+<div class=""flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"">
+<div class=""markdown prose dark:prose-invert w-full break-words light markdown-new-styling"">
+<p data-start=""146"" data-end=""321"">our no-effort, clean-look fix. This cocoa beige oversized tee brings warm tones and street calm in one solid piece. Throw on, step out, don’t overthink it.</p>
+<p data-start=""323"" data-end=""345""><strong data-start=""323"" data-end=""343"">Product Details:</strong></p>
+<ul data-start=""346"" data-end=""443"">
+<li data-start=""346"" data-end=""367"">
+<p data-start=""348"" data-end=""367"">Earthy beige tone</p>
+</li>
+<li data-start=""368"" data-end=""393"">
+<p data-start=""370"" data-end=""393"">Oversized comfort fit</p>
+</li>
+<li data-start=""394"" data-end=""420"">
+<p data-start=""396"" data-end=""420"">100% breathable cotton</p>
+</li>
+<li data-start=""421"" data-end=""443"">
+<p data-start=""423"" data-end=""443"">Gender-neutral cut</p>
+</li>
+</ul>
+<p data-start=""445"" data-end=""541"" data-is-last-node="""" data-is-only-node=""""><strong data-start=""445"" data-end=""461"">Styling Tip:</strong><br data-start=""461"" data-end=""464"">Pairs best with black cargos and minimal sneakers for that chill-core energy.</p>
+</div>
+</div>
+</div>
+</div>
+<div class=""flex min-h-[46px] justify-start""><br></div>
+<div class=""mt-3 w-full empty:hidden"">
+<div class=""text-center""><br></div>
+</div>
+</div>
+</div>
+</article>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","",true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_14.jpg?v=1755380595,1,Beige Basic Oversized Tee TacT Lifestyle,false,Beige Basic Oversized Tee - TacT Lifestyle," our no-effort, clean-look fix. This cocoa beige oversized tee brings warm tones and street calm in one solid piece. Throw on, step out, don’t  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,beige,cotton,crew,s; m; l; xl,short,female; unisex; male,,,,,,,kg,,,active
+beige-basic-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_15.jpg?v=1755380874,2,Beige Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+beige-basic-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_16.jpg?v=1755381150,3,Beige Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+beige-basic-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+black-basic-oversized-tee,Black Basic Oversized tee,"<p data-start=""174"" data-end=""389"">No prints, no noise—just pure blackout energy. This oversized black tee is your wardrobe's ride-or-die. Clean, comfy, and built to go with literally everything.</p>
+<p data-start=""391"" data-end=""413""><strong data-start=""391"" data-end=""411"">Product Details:</strong></p>
+<ul data-start=""414"" data-end=""517"">
+<li data-start=""414"" data-end=""434"">
+<p data-start=""416"" data-end=""434"">Jet black finish</p>
+</li>
+<li data-start=""435"" data-end=""460"">
+<p data-start=""437"" data-end=""460"">Oversized comfort fit</p>
+</li>
+<li data-start=""461"" data-end=""486"">
+<p data-start=""463"" data-end=""486"">100% cotton </p>
+</li>
+<li data-start=""487"" data-end=""517"">
+<p data-start=""489"" data-end=""517"">Unisex &amp; everyday approved</p>
+</li>
+</ul>
+<p data-start=""519"" data-end=""612"" data-is-last-node="""" data-is-only-node=""""><strong data-start=""519"" data-end=""535"">Styling Tip:</strong><br data-start=""535"" data-end=""538"">Pair with distressed denims, silver chains.</p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Basic,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_9.jpg?v=1755379474,1,Black Basic Oversized tee TacT Lifestyle,false,Black Basic Oversized tee - TacT Lifestyle,"No prints, no noise—just pure blackout energy. This oversized black tee is your wardrobe's ride-or-die. Clean, comfy, and built to go with literally  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,black,cotton,crew,s; m; l; xl,short,unisex,,,,,,,kg,,,active
+black-basic-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_11.jpg?v=1755379191,2,Black Basic Oversized tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+black-basic-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_10.jpg?v=1755378911,3,Black Basic Oversized tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+black-basic-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+central-perk-oversized-cropped-tee,Central Perk Regular Cropped Tee,"<p>Show off your love for the iconic coffeehouse with the <em data-start=""177"" data-end=""213"">Central Perk Oversized Cropped Tee</em>. This relaxed-fit, cropped design offers both comfort and style, making it perfect for casual outings or cozy coffee runs. Soft, breathable fabric ensures all-day wear, while the bold graphic adds a playful, pop-culture vibe. Pair it with high-waisted jeans or shorts for a trendy, effortless look.<br><br></p>
+<ul>
+<li data-start=""539"" data-end=""584"">
+<p data-start=""541"" data-end=""584"">Material: 100% Cotton (soft &amp; breathable)</p>
+</li>
+<li data-start=""585"" data-end=""623"">
+<p data-start=""587"" data-end=""623"">Fit: Oversized, cropped silhouette</p>
+</li>
+<li data-start=""624"" data-end=""655"">
+<p data-start=""626"" data-end=""655"">Neckline: Classic crew neck</p>
+</li>
+<li data-start=""656"" data-end=""681"">
+<p data-start=""658"" data-end=""681"">Sleeve: Short sleeves</p>
+</li>
+<li data-start=""682"" data-end=""734"">
+<p data-start=""684"" data-end=""734"">Styling: Perfect for casual and streetwear looks</p>
+</li>
+<li data-start=""735"" data-end=""778"">
+<p data-start=""737"" data-end=""778"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","",true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,1,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Central_Perk_Oversized_Cropped_Tee.jpg?v=1755528656,1,Central Perk  Oversized Cropped Tee wore by women.,false,Central Perk Regular Cropped Tee - TacT Lifestyle,"Show off your love for the iconic coffeehouse with the Central Perk Oversized Cropped Tee. This relaxed-fit, cropped design offers both comfort and  - TacT Lifestyle",,,adult,,,,,,,,,,'1,adults,,black; white,cotton,crew,s; m; l; xl,short,female,crop-top,,,,,,kg,,,active
+central-perk-oversized-cropped-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,2,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Central_Perk_Oversized_Cropped_Tee-2.jpg?v=1755370699,2,Central Perk Regular Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+central-perk-oversized-cropped-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,2,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Central_Perk_Oversized_Cropped_Tee-3.jpg?v=1755370986,3,Central Perk Regular Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+central-perk-oversized-cropped-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,2,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Central_Perk_Oversized_Cropped_Tee-4.jpg?v=1755371269,4,Central Perk Regular Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+embrace-yourself-oversized-cropped-tee,Embrace yourself Oversized Cropped Tee,"<p>Embrace Yourself Oversized Cropped Tee – soft, breathable, and effortlessly stylish. Perfect for casual streetwear and layering.<br><br></p>
+<ul>
+<li data-start=""538"" data-end=""583"">
+<p data-start=""540"" data-end=""583"">Material: 100% Cotton (soft &amp; breathable)</p>
+</li>
+<li data-start=""584"" data-end=""618"">
+<p data-start=""586"" data-end=""618"">Fit: Oversized, cropped design</p>
+</li>
+<li data-start=""619"" data-end=""650"">
+<p data-start=""621"" data-end=""650"">Neckline: Classic crew neck</p>
+</li>
+<li data-start=""651"" data-end=""676"">
+<p data-start=""653"" data-end=""676"">Sleeve: Short sleeves</p>
+</li>
+<li data-start=""677"" data-end=""734"">
+<p data-start=""679"" data-end=""734"">Styling: Ideal for casual wear or streetwear layering</p>
+</li>
+<li data-start=""735"" data-end=""778"">
+<p data-start=""737"" data-end=""778"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",neon,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/EMBRACE_YOURSELF.jpg?v=1760451653,1,Person wearing a pink t-shirt with text and denim shorts on a white background,false,Embrace yourself Oversized Cropped Tee - TacT Lifestyle,"Stay on-trend with the Embrace Yourself Oversized Cropped Tee. Soft, breathable, and effortlessly stylish for streetwear and casual looks.",,,,,,,,,,,,,,adults; teens,,pink,cotton,crew,s; m; l; xl,,female,crop-top,,,,,,kg,,,active
+embrace-yourself-oversized-cropped-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-32.jpg?v=1759155855,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+embrace-yourself-oversized-cropped-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-31.jpg?v=1759155855,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+embrace-yourself-oversized-cropped-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+enchantment-oversized-tee,Enchantment Oversized Tee,"<p>For the ones who believe in chaos <em data-end=""232"" data-start=""227"">and</em> magic. This oversized tee brings the heat with Pearl linework all over and a bold “Enchantment” graphic that screams main character energy. Comfy, trippy, and lowkey powerful—just like your vibe.<br><br></p>
+<ul data-start=""451"" data-end=""606"">
+<li data-start=""451"" data-end=""498"">
+<p data-start=""453"" data-end=""498"">Cream base with a contrast purple graphic</p>
+</li>
+<li data-start=""499"" data-end=""530"">
+<p data-start=""501"" data-end=""530"">Oversized fit for max chill</p>
+</li>
+<li data-start=""531"" data-end=""568"">
+<p data-start=""533"" data-end=""568"">Silver Pearl-inspired all-over detailing</p>
+</li>
+<li data-start=""569"" data-end=""589"">
+<p data-start=""571"" data-end=""589"">Soft 100% cotton</p>
+</li>
+<li data-start=""590"" data-end=""606"">
+<p data-start=""592"" data-end=""606"">Unisex style<br><br></p>
+<article class=""text-token-text-primary w-full focus:outline-none scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]"" dir=""auto"" data-turn-id=""request-WEB:0838d10a-7284-481a-8896-d4d6a43b2164-3"" data-testid=""conversation-turn-8"" data-scroll-anchor=""true"" data-turn=""assistant"" tabindex=""-1"">
+<div class=""text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] @[37rem]:[--thread-content-margin:--spacing(6)] @[72rem]:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)"">
+<div class=""[--thread-content-max-width:32rem] @[34rem]:[--thread-content-max-width:40rem] @[64rem]:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn"" tabindex=""-1"">
+<div class=""flex max-w-full flex-col grow"">
+<div data-message-author-role=""assistant"" data-message-id=""f72415df-4f9f-4899-b740-a985e0a0cbe9"" dir=""auto"" class=""min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-5"" data-message-model-slug=""gpt-5"">
+<div class=""flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"">
+<div class=""markdown prose dark:prose-invert w-full break-words light markdown-new-styling"">
+<p data-start=""0"" data-end=""103"" data-is-last-node="""" data-is-only-node=""""><strong data-start=""0"" data-end=""16"" data-is-only-node="""">Styling Tip:</strong><br data-start=""16"" data-end=""19"">Rock it with black cargos, chunky kicks, and a chain. Extra cool with purple shades.</p>
+</div>
+</div>
+</div>
+</div>
+<div class=""flex min-h-[46px] justify-start""><br></div>
+<div class=""mt-3 w-full empty:hidden"">
+<div class=""text-center""><br></div>
+</div>
+</div>
+</div>
+</article>
+<div aria-hidden=""true"" data-edge=""true"" class=""pointer-events-none h-px w-px""><br></div>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","",true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,2,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/enc1.jpg?v=1755375236,1,Enchantment Oversized Tee TacT Lifestyle,false,Enchantment Oversized Tee - TacT Lifestyle,For the ones who believe in chaos and magic. This oversized tee brings the heat with Pearl linework all over and a bold “Enchantment” graphic that  - TacT Lifestyle,,,adult,,,,,,,,,,'1,adults,,cream; purple,cotton,crew,s; m; l; xl,short,unisex; male,,,,,,,kg,,,active
+enchantment-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,2,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/enc2.jpg?v=1755375518,2,Enchantment Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+enchantment-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,2,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/enc4.jpg?v=1755374957,3,Enchantment Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+enchantment-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,2,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/enc3.jpg?v=1755375799,4,Enchantment Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-beige,Ghost of Tsushima Oversized Tee (Beige),"<p><span>Legends aren’t born—they're forged. This Beige oversized tee is a tribute to the Ghost himself. Featuring a clean front and a samurai back print with cherry blossom detailing, it’s made for warriors who walk their path.<br><br></span></p>
+<ul data-start=""434"" data-end=""565"">
+<li data-start=""434"" data-end=""463"">
+<p data-start=""436"" data-end=""463"">Front: Minimal logo print</p>
+</li>
+<li data-start=""464"" data-end=""508"">
+<p data-start=""466"" data-end=""508"">Back: Detailed Ghost of Tsushima artwork</p>
+</li>
+<li data-start=""509"" data-end=""533"">
+<p data-start=""511"" data-end=""533"">Oversized street fit</p>
+</li>
+<li data-start=""534"" data-end=""554"">
+<p data-start=""536"" data-end=""554"">Soft 100% cotton</p>
+</li>
+<li data-start=""555"" data-end=""565"">
+<p data-start=""557"" data-end=""565"">Unisex</p>
+</li>
+</ul>
+<p data-start=""567"" data-end=""678""><strong data-start=""567"" data-end=""583"">Styling Tip:</strong><br data-start=""583"" data-end=""586"">Style it with ripped denims, black boots, and a don’t-mess-with-me face. Samurai vibes only.</p>
+<p><span><br></span></p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","",true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_30.jpg?v=1755619753,1,Ghost of Tsushima Oversized Tee (Beige) TacT Lifestyle,false,Ghost of Tsushima Oversized Tee (Beige) - TacT Lifestyle,Legends aren’t born—they're forged. This Beige oversized tee is a tribute to the Ghost himself. Featuring a clean front and a samurai back print with  - TacT Lifestyle,,,adult,,,,,,,,,,,adults,,beige; black; pink,cotton,crew,s; m; l; xl,short,unisex; male,,,,,,,kg,,,active
+ghost-of-tsushima-beige,,,,,,,,,m,,,,,,,,,500.0,shopify,1,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_29.jpg?v=1755619753,2,Ghost of Tsushima Oversized Tee (Beige) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-beige,,,,,,,,,l,,,,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_31.jpg?v=1755378344,3,Ghost of Tsushima Oversized Tee (Beige) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-beige,,,,,,,,,xl,,,,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-cream,Ghost of Tsushima Oversized Tee (Cream),"<p><span>Legends aren’t born—they're forged. This Oversized cream tee is a tribute to the Ghost himself. Featuring a clean front and a samurai back print with cherry blossom detailing, it’s made for warriors who walk their path.</span></p>
+<ul data-start=""434"" data-end=""565"">
+<li data-start=""434"" data-end=""463"">
+<p data-start=""436"" data-end=""463"">Front: Minimal logo print</p>
+</li>
+<li data-start=""464"" data-end=""508"">
+<p data-start=""466"" data-end=""508"">Back: Detailed Ghost of Tsushima artwork</p>
+</li>
+<li data-start=""509"" data-end=""533"">
+<p data-start=""511"" data-end=""533"">Oversized street fit</p>
+</li>
+<li data-start=""534"" data-end=""554"">
+<p data-start=""536"" data-end=""554"">Soft 100% cotton</p>
+</li>
+<li data-start=""555"" data-end=""565"">
+<p data-start=""557"" data-end=""565"">Unisex</p>
+</li>
+</ul>
+<p data-start=""567"" data-end=""678""><strong data-start=""567"" data-end=""583"">Styling Tip:</strong><br data-start=""583"" data-end=""586"">Style it with ripped denims, black boots, and a don’t-mess-with-me face. Samurai vibes only.</p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Ghostoftsushima,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_36.jpg?v=1755619733,1,Ghost of Tsushima Oversized Tee (Cream) TacT Lifestyle,false,Ghost of Tsushima Oversized Tee (Cream) - TacT Lifestyle,Legends aren’t born—they're forged. This Oversized cream tee is a tribute to the Ghost himself. Featuring a clean front and a samurai back print with  - TacT Lifestyle,,,adult,,,,,,,,,,,adults,,cream; black; pink,cotton,crew,s; m; l; xl,short,unisex,,,,,,,kg,,,active
+ghost-of-tsushima-cream,,,,,,,,,m,,,,,,,,,500.0,shopify,0,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_38.jpg?v=1755619733,2,Ghost of Tsushima Oversized Tee (Cream) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-cream,,,,,,,,,l,,,,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_39.jpg?v=1755377219,3,Ghost of Tsushima Oversized Tee (Cream) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-cream,,,,,,,,,xl,,,,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ghost-of-tsushima-oversized-tee,Ghost of Tsushima Oversized Tee (Red),"<p>Legends aren’t born—they're forged. This fire red oversized tee is a tribute to the Ghost himself. Featuring a clean front and a samurai back print with cherry blossom detailing, it’s made for warriors who walk their own path.<br><br></p>
+<ul data-start=""434"" data-end=""565"">
+<li data-start=""434"" data-end=""463"">
+<p data-start=""436"" data-end=""463"">Front: Minimal logo print</p>
+</li>
+<li data-start=""464"" data-end=""508"">
+<p data-start=""466"" data-end=""508"">Back: Detailed Stance Ghost of Tsushima artwork</p>
+</li>
+<li data-start=""509"" data-end=""533"">
+<p data-start=""511"" data-end=""533"">Oversized street fit</p>
+</li>
+<li data-start=""534"" data-end=""554"">
+<p data-start=""536"" data-end=""554"">Soft 100% cotton</p>
+</li>
+<li data-start=""555"" data-end=""565"">
+<p data-start=""557"" data-end=""565"">Unisex</p>
+</li>
+</ul>
+<p data-start=""567"" data-end=""678""><strong data-start=""567"" data-end=""583"">Styling Tip:</strong><br data-start=""583"" data-end=""586"">Style it with ripped denims, black boots, and a don’t-mess-with-me face. Samurai vibes only.</p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","",true,Color,red,product.metafields.shopify.color-pattern,Size,s,product.metafields.shopify.size,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_34.jpg?v=1755619695,1,Ghost of Tsushima Oversized Tee (Red) TacT Lifestyle,false,Ghost of Tsushima Oversized Tee (Red) ,Legends aren’t born—they're forged. This fire red oversized tee is a tribute to the Ghost himself. Featuring a clean front and a samurai back print  - TacT Lifestyle,,,adult,,,,,,,,,,'1,adults,,red; cream; beige,cotton,crew,s; m; l; xl,short,unisex,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_35.jpg?v=1755376938,kg,,,active
+ghost-of-tsushima-oversized-tee,,,,,,,,,red,,,m,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_32.jpg?v=1755619695,2,Ghost of Tsushima Oversized Tee (Red) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_35.jpg?v=1755376938,kg,,,
+ghost-of-tsushima-oversized-tee,,,,,,,,,red,,,l,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_35.jpg?v=1755376938,3,Ghost of Tsushima Oversized Tee (Red) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_35.jpg?v=1755376938,kg,,,
+ghost-of-tsushima-oversized-tee,,,,,,,,,red,,,xl,,,,,,500.0,shopify,2,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_33.jpg?v=1755376374,4,Ghost of Tsushima Oversized Tee (Red) TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_35.jpg?v=1755376938,kg,,,
+harley-quinn-hey-puddin-crop-tee,"""Hey Puddin"" Regular Crop Top","<p data-start=""226"" data-end=""580"">Hey puddin’—Harley’s here to steal the spotlight (and maybe your heart). This cropped graphic tee from our Comic Culture collection is serving chaos, color, and crazy-cute vibes all in one. With its fiery red base and playful diamond prints, it’s the perfect mix of sweet and psycho—just like our favorite anti-heroine.</p>
+<p data-start=""582"" data-end=""608""><strong data-start=""582"" data-end=""606"">Product Description:</strong></p>
+<ul data-start=""609"" data-end=""1128"">
+<li data-start=""609"" data-end=""642"">
+<p data-start=""611"" data-end=""642""><strong data-start=""611"" data-end=""626"">Collection:</strong> Comic Culture</p>
+</li>
+<li data-start=""643"" data-end=""680"">
+<p data-start=""645"" data-end=""680""><strong data-start=""645"" data-end=""658"">Material:</strong> 100% premium cotton</p>
+</li>
+<li data-start=""681"" data-end=""711"">
+<p data-start=""683"" data-end=""711""><strong data-start=""683"" data-end=""691"">Fit:</strong> Cropped, boxy fit</p>
+</li>
+<li data-start=""712"" data-end=""772"">
+<p data-start=""714"" data-end=""772""><strong data-start=""714"" data-end=""724"">Color:</strong> Harley red with all-over white diamond motifs</p>
+</li>
+<li data-start=""773"" data-end=""800"">
+<p data-start=""775"" data-end=""800""><strong data-start=""775"" data-end=""788"">Neckline:</strong> Crew neck</p>
+</li>
+<li data-start=""801"" data-end=""831"">
+<p data-start=""803"" data-end=""831""><strong data-start=""803"" data-end=""815"">Sleeves:</strong> Short sleeves</p>
+</li>
+<li data-start=""832"" data-end=""925"">
+<p data-start=""834"" data-end=""925""><strong data-start=""834"" data-end=""844"">Print:</strong> ""Hey Puddin"" Harley Quinn face graphic at the front, high-quality screen print</p>
+</li>
+<li data-start=""926"" data-end=""987"">
+<p data-start=""928"" data-end=""987""><strong data-start=""928"" data-end=""937"">Care:</strong> Machine wash cold, gentle cycle, tumble dry low</p>
+</li>
+<li data-start=""988"" data-end=""1028"">
+<p data-start=""990"" data-end=""1028""><strong data-start=""990"" data-end=""1010"">Sizes Available:</strong> XS, S, M, L</p>
+</li>
+<li data-start=""1029"" data-end=""1128"">
+<p data-start=""1031"" data-end=""1128""><strong data-start=""1031"" data-end=""1045"">Style Tip:</strong> Pair with high-waist jeans or a mini skirt for that playful mischief-maker look.</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Comic,true,Size,s,product.metafields.shopify.size,,,,,,,,300.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_1.jpg?v=1755804854,1,"""Hey Puddin"" Regular Crop Top TacT Lifestyle",false,"""Hey Puddin"" Regular Crop Top - TacT Lifestyle","Unleash your inner Harley with ""Hey Puddin"" Crop Top! Bold red, diamond motifs, and a cheeky graphic for the perfect blend of sweet chaos. XS-L, shop now!",,,,,,,,,,,,,,teens; adults,,red,cotton,crew,s; m; l; xl,short,female,crop-top,,,,,,kg,,,active
+harley-quinn-hey-puddin-crop-tee,,,,,,,,,m,,,,,,,,,300.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_3.jpg?v=1755804854,2,"""Hey Puddin"" Regular Crop Top TacT Lifestyle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+harley-quinn-hey-puddin-crop-tee,,,,,,,,,l,,,,,,,,,300.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_2.jpg?v=1755804854,3,"""Hey Puddin"" Regular Crop Top TacT Lifestyle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+harley-quinn-hey-puddin-crop-tee,,,,,,,,,xl,,,,,,,,,300.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_4.jpg?v=1755361983,4,"""Hey Puddin"" Regular Crop Top TacT Lifestyle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+hot-red-basic-oversized-tee,Hot Red Basic Oversized Tee,"<p data-start=""87"" data-end=""182"">Bright, soft, and comfy – perfect for casual everyday wear.</p>
+<ul data-start=""207"" data-end=""354"">
+<li data-start=""207"" data-end=""232"">
+<p data-start=""209"" data-end=""232"">Material: 100% Cotton</p>
+</li>
+<li data-start=""233"" data-end=""260"">
+<p data-start=""235"" data-end=""260"">Fit: Oversized, relaxed</p>
+</li>
+<li data-start=""261"" data-end=""284"">
+<p data-start=""263"" data-end=""284"">Neckline: Crew neck</p>
+</li>
+<li data-start=""285"" data-end=""310"">
+<p data-start=""287"" data-end=""310"">Sleeve: Short sleeves</p>
+</li>
+<li data-start=""311"" data-end=""354"">
+<p data-start=""313"" data-end=""354"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Basic,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_6.jpg?v=1755373264,1,Hot Red Basic Oversized Tee TacT Lifestyle,false,Hot Red Basic Oversized Tee - TacT Lifestyle,"Bright, soft, and comfy – perfect for casual everyday wear. Material: 100% Cotton Fit: Oversized, relaxed Neckline: Crew neck Sleeve: Short sleeves  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,red,cotton,crew,s; m; l; xl,short,male; female; unisex,,,,,,,kg,,,active
+hot-red-basic-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_8.jpg?v=1755373836,2,Hot Red Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+hot-red-basic-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_7.jpg?v=1755373554,3,Hot Red Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+hot-red-basic-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+kiss-pop-cropped-tee,Kiss Pop Oversized Cropped Tee,"<p data-start=""144"" data-end=""540"">The <strong data-start=""175"" data-end=""199"">Kiss Pop Cropped Tee</strong> is pure attitude with a splash of fun. Featuring a scattered multicolor lip print on sleek black cotton, it’s a statement piece that plays well with denim, skirts, or even layered streetwear fits. The cropped cut and relaxed sleeves give it that effortlessly cool vibe, perfect for days when you want to stand out without trying too hard.</p>
+<ul>
+<li data-start=""561"" data-end=""620"">
+<p data-start=""563"" data-end=""620""><strong data-start=""563"" data-end=""574"">Fabric:</strong> 100% Cotton (Soft, breathable, and durable)</p>
+</li>
+<li data-start=""621"" data-end=""660"">
+<p data-start=""623"" data-end=""660""><strong data-start=""623"" data-end=""631"">Fit:</strong> Relaxed cropped silhouette</p>
+</li>
+<li data-start=""661"" data-end=""707"">
+<p data-start=""663"" data-end=""707""><strong data-start=""663"" data-end=""675"">Pattern:</strong> Multicolor lip print all over</p>
+</li>
+<li data-start=""708"" data-end=""735"">
+<p data-start=""710"" data-end=""735""><strong data-start=""710"" data-end=""723"">Neckline:</strong> Crew neck</p>
+</li>
+<li data-start=""736"" data-end=""765"">
+<p data-start=""738"" data-end=""765""><strong data-start=""738"" data-end=""750"">Sleeves:</strong> Half sleeves</p>
+</li>
+<li data-start=""766"" data-end=""826"">
+<p data-start=""768"" data-end=""826""><strong data-start=""768"" data-end=""777"">Care:</strong> Machine wash cold, gentle cycle, do not bleach</p>
+</li>
+<li data-start=""827"" data-end=""971"">
+<p data-start=""829"" data-end=""971""><strong data-start=""829"" data-end=""845"">Styling Tip:</strong> Pair with high-waist denim and chunky sneakers for a bold street style, or tuck into a mini skirt for a playful, chic look.<br></p>
+<ul>
+<li data-start=""1000"" data-end=""1031"">
+<p data-start=""1002"" data-end=""1031""><span style=""text-decoration: underline;"">Model height: 5’6"" (168 cm)</span></p>
+</li>
+<li data-start=""1032"" data-end=""1056"">
+<p data-start=""1034"" data-end=""1056""><span style=""text-decoration: underline;"">Wearing size: Medium</span></p>
+</li>
+<li data-start=""1057"" data-end=""1095"">
+<p data-start=""1059"" data-end=""1095""><span style=""text-decoration: underline;"">True to size — take your usual fit</span></p>
+</li>
+</ul>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",neon,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/1_12.jpg?v=1755365375,1,Kiss Pop Oversized Cropped Tee TacT Lifestyle,false,Kiss Pop Cropped Tee – Women’s Streetwear T-Shirt | Tact Lifestyle,"Add a pop of color to your style with the Kiss Pop Cropped Tee from Tact Lifestyle. Bold lip prints, comfy cotton, and a cropped fit for that perfect streetwear edge.",,,adult,,,,,,,,,,,adults,,black,cotton,crew,s; m; l; xl,short,female,crop-top,,,,,,kg,,,active
+kiss-pop-cropped-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/1_10.jpg?v=1755365657,2,Kiss Pop Oversized Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+kiss-pop-cropped-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/1_11.jpg?v=1755365935,3,Kiss Pop Oversized Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+kiss-pop-cropped-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,5,deny,manual,720.00,899.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+lavender-basic-oversized-t-shirt,Lavender Basic Oversized T-shirt,"<p data-start=""114"" data-end=""263""><br data-start=""130"" data-end=""133"">A clean canvas with a calm vibe. This lavender oversized tee brings softness to your streetwear with its chill tone and roomy fit.</p>
+<p data-start=""265"" data-end=""287""><strong data-start=""265"" data-end=""285"">Product Details:</strong></p>
+<ul data-start=""288"" data-end=""381"">
+<li data-start=""288"" data-end=""311"">
+<p data-start=""290"" data-end=""311"">Fresh lavender tone</p>
+</li>
+<li data-start=""312"" data-end=""336"">
+<p data-start=""314"" data-end=""336"">Oversized silhouette</p>
+</li>
+<li data-start=""337"" data-end=""363"">
+<p data-start=""339"" data-end=""363"">Breathable 100% cotton</p>
+</li>
+<li data-start=""364"" data-end=""381"">
+<p data-start=""366"" data-end=""381"">Unisex design</p>
+</li>
+</ul>
+<p data-start=""383"" data-end=""488"" data-is-last-node="""" data-is-only-node=""""><strong data-start=""383"" data-end=""399"">Styling Tip:</strong><br data-start=""399"" data-end=""402"">Layer it with light denims or go monochrome with lilac bottoms for a fresh pastel fit.</p>
+<p> </p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","basic, lavender, oversized, tone, with",true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_20_361eac01-cecf-4370-9df5-9c749884894f.jpg?v=1755529194,1,lavender basic oversized tshirt front,false,Lavender Basic Oversized Tee,Discover the Lavender Basic Oversized T-shirt for a stylish and comfortable look. Ideal for casual wear. Shop now!,,,adult,,,,,,,,,,,adults,,lavender,cotton,crew,s; m; l; xl,short,male; female; unisex,,,,,,,kg,,,active
+lavender-basic-oversized-t-shirt,,,,,,,,,m,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_21.jpg?v=1755529730,2,lavender basic oversized tshirt side,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+lavender-basic-oversized-t-shirt,,,,,,,,,l,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+lavender-basic-oversized-t-shirt,,,,,,,,,xl,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+lovestruck-angel-oversized-tee,Lovestruck Angel Oversized Tee,"<p>The <strong data-start=""235"" data-end=""269"">Lovestruck Angel Oversized Tee</strong> is pure streetwear energy. Featuring a bold back print of neon graffiti hearts, flames, and a dripping smiley, it’s a walking statement piece. Crafted from premium black cotton in an oversized fit, this tee is all about comfort with an edge. Perfect for those who want their outfit to speak louder than words.<br></p>
+<ul>
+<li data-start=""612"" data-end=""647"">
+<p data-start=""614"" data-end=""647""><strong data-start=""614"" data-end=""625"">Fabric:</strong> 100% Premium Cotton</p>
+</li>
+<li data-start=""648"" data-end=""692"">
+<p data-start=""650"" data-end=""692""><strong data-start=""650"" data-end=""658"">Fit:</strong> Oversized streetwear silhouette</p>
+</li>
+<li data-start=""693"" data-end=""779"">
+<p data-start=""695"" data-end=""779""><strong data-start=""695"" data-end=""705"">Print:</strong> High-quality neon graffiti back graphic with “Lovestruck Angel” artwork</p>
+</li>
+<li data-start=""780"" data-end=""815"">
+<p data-start=""782"" data-end=""815""><strong data-start=""782"" data-end=""795"">Neckline:</strong> Classic crew neck</p>
+</li>
+<li data-start=""816"" data-end=""864"">
+<p data-start=""818"" data-end=""864""><strong data-start=""818"" data-end=""830"">Sleeves:</strong> Half sleeves for a relaxed vibe</p>
+</li>
+<li data-start=""865"" data-end=""939"">
+<p data-start=""867"" data-end=""939""><strong data-start=""867"" data-end=""876"">Care:</strong> Machine wash cold, inside out; do not bleach; tumble dry low</p>
+</li>
+<li data-start=""940"" data-end=""1086"">
+<p data-start=""942"" data-end=""1086""><strong data-start=""942"" data-end=""958"">Styling Tip:</strong> Rock it with ripped jeans and chunky sneakers for a street-smart look, or layer with an open flannel shirt for an extra edge.<br><br></p>
+<ul data-start=""1115"" data-end=""1226"">
+<li data-start=""1115"" data-end=""1146"">
+<p data-start=""1117"" data-end=""1146"">Model height: 5’9"" (175 cm)</p>
+</li>
+<li data-start=""1147"" data-end=""1170"">
+<p data-start=""1149"" data-end=""1170"">Wearing size: Large</p>
+</li>
+<li data-start=""1171"" data-end=""1226"">
+<p data-start=""1173"" data-end=""1226"">Oversized fit — size down if you want a regular fit</p>
+</li>
+</ul>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",neon,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-37_1.jpg?v=1758445762,1,"",false,Lovestruck Angel Oversized Tee – Neon Graffiti Streetwear | Tact Lifestyle,"Stand out in the Lovestruck Angel Oversized Tee from Tact Lifestyle. Neon graffiti print, premium cotton comfort, and an edgy oversized fit for true streetwear lovers.",,,adult,,,,,,,,,,'2,adults,,black,cotton,crew,s; m; l; xl,short,unisex,,,,,,,kg,,,active
+lovestruck-angel-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,4,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-39.jpg?v=1759156039,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+lovestruck-angel-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-36_1.jpg?v=1759156039,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+lovestruck-angel-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-34.jpg?v=1758445762,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+neon-skull-pop-oversized-tee,Neon Skull Illusion Puff Oversized Tee,"<p data-start=""166"" data-end=""619"">Turn heads with the <strong data-start=""213"" data-end=""245"">Neon Skull Pop Oversized Tee</strong>, a bold fusion of streetwear edge and electrifying neon vibes. Designed with all-over 3D-effect neon skull prints, this tee delivers a punch of personality to any fit. Its relaxed oversized cut and premium cotton fabric keep you cool while you turn up the heat. Perfect for late-night city strolls or daytime statement looks — this isn’t just a tee, it’s an energy boost.</p>
+<p data-start=""621"" data-end=""638""><strong data-start=""621"" data-end=""636"">Model Info:</strong></p>
+<ul data-start=""639"" data-end=""689"">
+<li data-start=""639"" data-end=""665"">
+<p data-start=""641"" data-end=""665"">Height: 5'11"" (180 cm)</p>
+</li>
+<li data-start=""666"" data-end=""689"">
+<p data-start=""668"" data-end=""689"">Wearing size: Large</p>
+</li>
+</ul>",Tactlifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",neon,true,Size,s,product.metafields.shopify.size,Fabric,cotton,product.metafields.shopify.fabric,,,,,0.0,shopify,3,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-42.jpg?v=1758894846,1,"",false,Neon Skull Illusion Oversized Tee - TacT Lifestyle,"Turn heads with the Neon Skull Pop Oversized Tee, a bold fusion of streetwear edge and electrifying neon vibes. Designed with all-over 3D-effect neon  - TacT Lifestyle",,,adult,,,,,,,,,,'3,adults,,beige; white,cotton,crew,s; m; l; xl,short,unisex,medium,,,ahead,,,kg,,,active
+neon-skull-pop-oversized-tee,,,,,,,,,m,,,cotton,,,,,,0.0,shopify,4,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/1_15.jpg?v=1758894846,2,Neon Skull Illusion Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+neon-skull-pop-oversized-tee,,,,,,,,,l,,,cotton,,,,,,0.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-43.jpg?v=1758894846,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+neon-skull-pop-oversized-tee,,,,,,,,,xl,,,cotton,,,,,,0.0,shopify,3,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/f10.jpg?v=1758894846,4,Neon Skull Illusion Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+neon-skull-pop-oversized-tee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/f11.jpg?v=1758894846,5,Neon Skull Illusion Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+neon-skull-pop-oversized-tee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/f12.jpg?v=1758894846,6,Neon Skull Illusion Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+olive-green-basic-oversized-tee,Olive Green Basic Oversized Tee,"<p data-start=""71"" data-end=""161"">Soft, comfy, and perfect for everyday casual wear.</p>
+<p data-start=""163"" data-end=""185""><strong data-start=""163"" data-end=""183"">Product Details:</strong></p>
+<ul data-start=""186"" data-end=""333"">
+<li data-start=""186"" data-end=""211"">
+<p data-start=""188"" data-end=""211"">Material: 100% Cotton</p>
+</li>
+<li data-start=""212"" data-end=""239"">
+<p data-start=""214"" data-end=""239"">Fit: Oversized, relaxed</p>
+</li>
+<li data-start=""240"" data-end=""263"">
+<p data-start=""242"" data-end=""263"">Neckline: Crew neck</p>
+</li>
+<li data-start=""264"" data-end=""289"">
+<p data-start=""266"" data-end=""289"">Sleeve: Short sleeves</p>
+</li>
+<li data-start=""290"" data-end=""333"">
+<p data-start=""292"" data-end=""333"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Basic,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_12.jpg?v=1755371551,1,Olive Green Basic Oversized Tee TacT Lifestyle,false,Olive Green Basic Oversized Tee - TacT Lifestyle,"Soft, comfy, and perfect for everyday casual wear. Product Details: Material: 100% Cotton Fit: Oversized, relaxed Neckline: Crew neck Sleeve: Short  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,green,cotton,crew,s; m; l; xl,short,unisex; male; female,,,,,,,kg,,,active
+olive-green-basic-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_13.jpg?v=1755371834,2,Olive Green Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+olive-green-basic-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_28.jpg?v=1755372119,3,Olive Green Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+olive-green-basic-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+onion-basic-oversized-tee,Onion Basic Oversized Tee,"<article class=""text-token-text-primary w-full focus:outline-none scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]"" dir=""auto"" data-turn-id=""request-WEB:0838d10a-7284-481a-8896-d4d6a43b2164-12"" data-testid=""conversation-turn-26"" data-scroll-anchor=""true"" data-turn=""assistant"" tabindex=""-1"">
+<div class=""text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] @[37rem]:[--thread-content-margin:--spacing(6)] @[72rem]:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)"">
+<div class=""[--thread-content-max-width:32rem] @[34rem]:[--thread-content-max-width:40rem] @[64rem]:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn"" tabindex=""-1"">
+<div class=""flex max-w-full flex-col grow"">
+<div data-message-author-role=""assistant"" data-message-id=""4c319527-4df3-4bb3-9b95-d4a139aa36ae"" dir=""auto"" class=""min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-5"" data-message-model-slug=""gpt-5"">
+<div class=""flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"">
+<div class=""markdown prose dark:prose-invert w-full break-words light markdown-new-styling"">
+<p data-start=""144"" data-end=""346"">For the days when black feels too basic. This dusty rose oversized tee is soft, chill, and lowkey makes everything look better. Minimal on print, max on vibe—just throw it on and dip.</p>
+<p data-start=""348"" data-end=""370""><strong data-start=""348"" data-end=""368"">Product Details:</strong></p>
+<ul data-start=""371"" data-end=""475"">
+<li data-start=""371"" data-end=""396"">
+<p data-start=""373"" data-end=""396"">Washed rose/pink tone</p>
+</li>
+<li data-start=""397"" data-end=""422"">
+<p data-start=""399"" data-end=""422"">Relaxed oversized fit</p>
+</li>
+<li data-start=""423"" data-end=""447"">
+<p data-start=""425"" data-end=""447"">100% cotton goodness</p>
+</li>
+<li data-start=""448"" data-end=""475"">
+<p data-start=""450"" data-end=""475"">Genderless &amp; seasonless</p>
+</li>
+</ul>
+<p data-start=""477"" data-end=""574"" data-is-last-node="""" data-is-only-node=""""><strong data-start=""477"" data-end=""493"">Styling Tip:</strong><br data-start=""493"" data-end=""496"">Team it with baggy denims, white sneakers, and a messy hair day—it just works.</p>
+</div>
+</div>
+</div>
+</div>
+<div class=""flex min-h-[46px] justify-start""><br></div>
+<div class=""mt-3 w-full empty:hidden"">
+<div class=""text-center""><br></div>
+</div>
+</div>
+</div>
+</article>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"","",true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_22.jpg?v=1755379754,1,Onion Basic Oversized Tee TacT Lifestyle,false,Onion Basic Oversized Tee - TacT Lifestyle," For the days when black feels too basic. This dusty rose oversized tee is soft, chill, and lowkey makes everything look better. Minimal  print, max  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,onion,cotton,crew,s; m; l; xl,short,unisex; male; female,,,,,,,kg,,,active
+onion-basic-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_23.jpg?v=1755380034,2,Onion Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+onion-basic-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_24.jpg?v=1755380314,3,Onion Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+onion-basic-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+pay-now,Pay Now,<p>Pay Now</p>,Tactlifestyle ,Services > Business Services,"","",true,Title,Default Title,,,,,,,,,0.0,shopify,18,deny,manual,1.00,,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/icons8-guarantee-100.png?v=1764141506,1,"",false,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,unlisted
+peace-of-mind-oversized-tee,Peace of Mind Oversized Tee,"<p>The Peace of Mind oversized tee is all about laid-back comfort with a clean, minimal vibe. Crafted from premium cotton, this piece features a relaxed fit and a subtle chest print, making it easy to style for any occasion. Perfect for lounging, streetwear looks, or layering under jackets.<br><br></p>
+<ul>
+<li data-start=""653"" data-end=""676"">
+<p data-start=""655"" data-end=""676"">Fabric: 100% Cotton</p>
+</li>
+<li data-start=""677"" data-end=""695"">
+<p data-start=""679"" data-end=""695"">Fit: Oversized</p>
+</li>
+<li data-start=""696"" data-end=""719"">
+<p data-start=""698"" data-end=""719"">Neckline: Crew Neck</p>
+</li>
+<li data-start=""720"" data-end=""743"">
+<p data-start=""722"" data-end=""743"">Sleeve: Half Sleeve<br></p>
+</li>
+<li data-start=""777"" data-end=""820"">
+<p data-start=""779"" data-end=""820"">Care: Machine wash cold, tumble dry low<br><br>Style it with cargo pants and chunky sneakers for a street look, or layer over a long-sleeve tee when the weather cools down.<br></p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",neon,true,Size,s,product.metafields.shopify.size,,,,,,,,0.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Copy_of_Z_M-2.jpg?v=1759155979,1,"",false,Peace of Mind Oversized Tee - TacT Lifestyle,"The Peace of Mind oversized tee is all about laid-back comfort with a clean, minimal vibe. Crafted from premium cotton, this piece features a relaxed  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,pink,cotton,crew,s; m; l; xl,short,male; unisex,,,,,,,kg,,,active
+peace-of-mind-oversized-tee,,,,,,,,,m,,,,,,,,,0.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Copy_of_Z_M-4.jpg?v=1759155979,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+peace-of-mind-oversized-tee,,,,,,,,,l,,,,,,,,,0.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Copy_of_Z_M-3.jpg?v=1759155979,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+peace-of-mind-oversized-tee,,,,,,,,,xl,,,,,,,,,0.0,shopify,5,deny,manual,960.00,1199.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+pretty-annoying-cropped-graphic-tee,Pretty Annoying Oversized Cropped Tee,"<p>Say it without saying it — the Pretty Annoying cropped tee is your go-to for playful, carefree style. Featuring vibrant neon puff print on soft cotton, this cream crop top pairs comfort with attitude. Perfect for weekend plans, casual meet-ups, or just owning your mood.<br><br></p>
+<ul>
+<li data-start=""708"" data-end=""731"">
+<p data-start=""710"" data-end=""731"">Fabric: 100% Cotton</p>
+</li>
+<li data-start=""732"" data-end=""760"">
+<p data-start=""734"" data-end=""760"">Fit: Relaxed Cropped Fit</p>
+</li>
+<li data-start=""761"" data-end=""784"">
+<p data-start=""763"" data-end=""784"">Neckline: Crew Neck</p>
+</li>
+<li data-start=""785"" data-end=""808"">
+<p data-start=""787"" data-end=""808"">Sleeve: Half Sleeve</p>
+</li>
+<li data-start=""809"" data-end=""835"">
+<p data-start=""811"" data-end=""835"">Print: Neon Puff Print</p>
+</li>
+<li data-start=""836"" data-end=""879"">
+<p data-start=""838"" data-end=""879"">Care: Machine wash cold, tumble dry low<br><br><strong data-start=""881"" data-end=""896"">Styling Tip</strong><br data-start=""896"" data-end=""899"">Match it with baggy cargo pants and sneakers, or layer under an oversized shirt for a laid-back streetwear look.<br><br><br></p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",neon,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,4,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Pretty_annoying.jpg?v=1755528171,1,Person wearing a white t-shirt with 'PRETTY Annoying' text in pink and green.,false,Pretty Annoying Oversized Cropped Tee - TacT Lifestyle,"Playfully unapologetic. The Pretty Annoying cropped tee brings neon vibes, comfy cotton, and a statement you can wear anywhere.",,,,,,,,,,,,,,adults; teens,,white,cotton,,s; m; l; xl,short,female,,,,,,,kg,,,active
+pretty-annoying-cropped-graphic-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/pretty_annoying_2.jpg?v=1755527674,2,Person wearing a white t-shirt with colorful text on a white background,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+pretty-annoying-cropped-graphic-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/p3.jpg?v=1755367046,3,Pretty Annoying Oversized Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+pretty-annoying-cropped-graphic-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+snow-white-oversized-tee,Cream Basic Oversized Tee,"<p>Soft, breathable, and perfect for effortless everyday style.</p>
+<ul data-start=""220"" data-end=""367"">
+<li data-start=""220"" data-end=""245"">
+<p data-start=""222"" data-end=""245"">Material: 100% Cotton</p>
+</li>
+<li data-start=""246"" data-end=""273"">
+<p data-start=""248"" data-end=""273"">Fit: Oversized, relaxed</p>
+</li>
+<li data-start=""274"" data-end=""297"">
+<p data-start=""276"" data-end=""297"">Neckline: Crew neck</p>
+</li>
+<li data-start=""298"" data-end=""323"">
+<p data-start=""300"" data-end=""323"">Sleeve: Short sleeves</p>
+</li>
+<li data-start=""324"" data-end=""367"">
+<p data-start=""326"" data-end=""367"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Basic,true,Size,s,product.metafields.shopify.size,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_25.jpg?v=1755374117,1,Cream Basic Oversized Tee TacT Lifestyle,false,Cream Basic Oversized Tee - TacT Lifestyle,"Soft, breathable, and perfect for effortless everyday style. Material: 100% Cotton Fit: Oversized, relaxed Neckline: Crew neck Sleeve: Short sleeves  - TacT Lifestyle",,,adult,,,TRUE,,,,,,TRUE,,adults,,cream,cotton,crew,s; m; l; xl,short,male; female; unisex,,,central-perk-oversized-cropped-tee; embrace-yourself-oversized-cropped-tee; harley-quinn-hey-puddin-crop-tee; hot-red-basic-oversized-tee; kiss-pop-cropped-tee; lovestruck-angel-oversized-tee; neon-skull-pop-oversized-tee; olive-green-basic-oversized-tee,ahead,,,kg,,,active
+snow-white-oversized-tee,,,,,,,,,m,,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_26.jpg?v=1755374401,2,Cream Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+snow-white-oversized-tee,,,,,,,,,l,,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_27.jpg?v=1755374679,3,Cream Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+snow-white-oversized-tee,,,,,,,,,xl,,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spider-gwen-cropped-tee,Spider-Gwen Regular Cropped Tee,"<p>Bring the Spider-Verse into your wardrobe with the Spider-Gwen cropped tee. Made from soft, breathable cotton, it features a vibrant front graphic inspired by Gwen Stacy’s iconic look. The relaxed cropped fit makes it perfect for casual days, comic events, or just repping your favorite hero in style.<br><br></p>
+<ul data-start=""683"" data-end=""865"">
+<li data-start=""683"" data-end=""706"">
+<p data-start=""685"" data-end=""706"">Fabric: 100% Cotton</p>
+</li>
+<li data-start=""707"" data-end=""735"">
+<p data-start=""709"" data-end=""735"">Fit: Relaxed Cropped Fit</p>
+</li>
+<li data-start=""736"" data-end=""759"">
+<p data-start=""738"" data-end=""759"">Neckline: Crew Neck</p>
+</li>
+<li data-start=""760"" data-end=""783"">
+<p data-start=""762"" data-end=""783"">Sleeve: Half Sleeve</p>
+</li>
+<li data-start=""784"" data-end=""821"">
+<p data-start=""786"" data-end=""821"">Print: High-quality graphic print</p>
+</li>
+<li data-start=""822"" data-end=""865"">
+<p data-start=""824"" data-end=""865"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>
+<p data-start=""867"" data-end=""1006""><strong data-start=""867"" data-end=""882"">Styling Tip</strong><br data-start=""882"" data-end=""885"">Pair with high-waisted jeans and sneakers for an everyday look, or throw on a denim jacket to nail that Comic-Con vibe.</p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Comic,true,Size,s,product.metafields.shopify.size,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_5.jpg?v=1755368164,1,Spider-Gwen Regular Cropped Tee TacT Lifestyle,false,Spider-Gwen Regular Cropped Tee - TacT Lifestyle,"Show your Spidey style with the Spider-Gwen cropped tee. Soft cotton, streetwear fit, and comic-inspired edge for everyday wear.",,,,,,,,,,,,,,adults; teens,,white; beige,cotton,crew,s; m; l; xl,short,female,crop-top,,,,,,kg,,,active
+spider-gwen-cropped-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/whitebackgroundraw_15.jpg?v=1755368442,2,Spider-Gwen Regular Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spider-gwen-cropped-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_6.jpg?v=1755367878,3,Spider-Gwen Regular Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spider-gwen-cropped-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spidy-oversized-tshirt,Spidey Oversized Tee,"<p data-start=""291"" data-end=""761"">Turn heads from every angle with the <strong data-start=""328"" data-end=""360"">Spidey Oversized Tee</strong> — a vibrant crimson piece that celebrates the spirit of your favorite superhero. The front keeps it minimal with a clean look, while the back explodes with a striking Spider-Man mask graphic surrounded by hand-lettered comic-style words like <em data-start=""603"" data-end=""641"">Strength, Agility, Web, Spider Sense</em>. Crafted from premium cotton with a relaxed oversized fit, it’s the perfect mix of streetwear style and fandom pride.<br><br></p>
+<ul>
+<li data-start=""792"" data-end=""827"">
+<p data-start=""794"" data-end=""827""><strong data-start=""794"" data-end=""805"">Fabric:</strong> 100% Premium Cotton</p>
+</li>
+<li data-start=""828"" data-end=""870"">
+<p data-start=""830"" data-end=""870""><strong data-start=""830"" data-end=""838"">Fit:</strong> Oversized, relaxed silhouette</p>
+</li>
+<li data-start=""871"" data-end=""929"">
+<p data-start=""873"" data-end=""929""><strong data-start=""873"" data-end=""890"">Front Design:</strong> Clean, minimal front for easy pairing</p>
+</li>
+<li data-start=""930"" data-end=""1008"">
+<p data-start=""932"" data-end=""1008""><strong data-start=""932"" data-end=""948"">Back Design:</strong> Large Spider-Man mask graphic with comic-style typography</p>
+</li>
+<li data-start=""1009"" data-end=""1044"">
+<p data-start=""1011"" data-end=""1044""><strong data-start=""1011"" data-end=""1024"">Neckline:</strong> Classic crew neck</p>
+</li>
+<li data-start=""1045"" data-end=""1094"">
+<p data-start=""1047"" data-end=""1094""><strong data-start=""1047"" data-end=""1059"">Sleeves:</strong> Half sleeves for relaxed styling</p>
+</li>
+<li data-start=""1095"" data-end=""1169"">
+<p data-start=""1097"" data-end=""1169""><strong data-start=""1097"" data-end=""1106"">Care:</strong> Machine wash cold, inside out; do not bleach; tumble dry low</p>
+</li>
+<li data-start=""1170"" data-end=""1297"">
+<p data-start=""1172"" data-end=""1297""><strong data-start=""1172"" data-end=""1188"">Styling Tip:</strong> Wear with ripped jeans and sneakers for a casual hero look, or throw it over joggers for a laid-back vibe.<br><br></p>
+<ul>
+<li data-start=""1326"" data-end=""1358"">
+<p data-start=""1328"" data-end=""1358"">Model height: 5’9"" </p>
+</li>
+<li data-start=""1359"" data-end=""1382"">
+<p data-start=""1361"" data-end=""1382"">Wearing size: Medium</p>
+</li>
+<li data-start=""1383"" data-end=""1435"">
+<p data-start=""1385"" data-end=""1435"">Oversized fit — size down for a more regular fit</p>
+</li>
+</ul>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Comic,true,Size,s,product.metafields.shopify.size,,,,,,,,300.0,shopify,3,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-45.jpg?v=1758959317,1,Red t-shirt with a spider logo worn by a person,false,Spidy Oversized T-shirt | Tact Lifestyle,"Turn heads with the Spidy Oversized Tee! Embrace Spider-Man style in premium cotton. Vibrant design, comfy fit. Perfect for hero-like streetwear!",212.0,,adult,,,,,,,,,,'2,adults,,red,cotton,crew,s; m; l; xl,short,unisex; male,medium,,,,,,kg,,,active
+spidy-oversized-tshirt,,,,,,,,,m,,,,,,,,,300.0,shopify,4,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Z_M-46.jpg?v=1758959317,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spidy-oversized-tshirt,,,,,,,,,l,,,,,,,,,300.0,shopify,4,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_9.jpg?v=1758959317,3,Spidy Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spidy-oversized-tshirt,,,,,,,,,xl,,,,,,,,,300.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_11.jpg?v=1758959317,4,Spidy Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+spidy-oversized-tshirt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_10.jpg?v=1758959317,5,Spidy Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+spidy-oversized-tshirt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/tact_2.jpg?v=1758959317,6,Red shirt with a silver spider logo on a black background,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+steel-blue-basic-oversized-tee,Cement Blue Basic Oversized Tee,"<p data-end=""178"" data-start=""89"">Soft, comfy, and perfect for casual everyday wear.</p>
+<ul data-end=""350"" data-start=""203"">
+<li data-end=""228"" data-start=""203"">
+<p data-end=""228"" data-start=""205"">Material: 100% Cotton</p>
+</li>
+<li data-end=""256"" data-start=""229"">
+<p data-end=""256"" data-start=""231"">Fit: Oversized, relaxed</p>
+</li>
+<li data-end=""280"" data-start=""257"">
+<p data-end=""280"" data-start=""259"">Neckline: Crew neck</p>
+</li>
+<li data-end=""306"" data-start=""281"">
+<p data-end=""306"" data-start=""283"">Sleeve: Short sleeves</p>
+</li>
+<li data-end=""350"" data-start=""307"">
+<p data-end=""350"" data-start=""309"">Care: Machine wash cold, tumble dry low</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Basic,true,Size,s,product.metafields.shopify.size,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Sky_blue_oversized_Tee_Basic.jpg?v=1755372406,1,Cement Blue Basic Oversized Tee TacT Lifestyle,false,Cement Blue Basic Oversized Tee - TacT Lifestyle,"Soft, comfy, and perfect for casual everyday wear. Material: 100% Cotton Fit: Oversized, relaxed Neckline: Crew neck Sleeve: Short sleeves Care:  - TacT Lifestyle",,,adult,,,,,,,,,,,adults,,blue,cotton,crew,s; m; l; xl,,female; unisex; male,,,,,,,kg,,,active
+steel-blue-basic-oversized-tee,,,,,,,,,m,,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_18.jpg?v=1755372692,2,Cement Blue Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+steel-blue-basic-oversized-tee,,,,,,,,,l,,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/3_19.jpg?v=1755372979,3,Cement Blue Basic Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+steel-blue-basic-oversized-tee,,,,,,,,,xl,,,,,,,,,0.0,shopify,3,deny,manual,560.00,699.00,true,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+why-so-serious-oversized-tee,Why So Serious? Oversized Tee,"<p><span>Make a statement without saying a word. This oversized olive tee throws down serious Joker energy with bold artwork and gritty detail. It’s street, it’s comic culture, and it’s got just the right amount of chaos. Rock it for a day out, a gig, or whenever you’re feeling a little unpredictable.</span><br><br><span>Styling Tip:</span><br><span>Ripped jeans, sneakers, and a devil-may-care attitude — that’s all you need.</span><br><br><br><span>Product Details:</span><br><br><span>Color: Olive Green</span><br><span>Fit: Oversized</span><br><span>Neck: Crew</span><br><span>Fabric: 100% Premium Cotton</span><br><span>Print: High-quality front &amp; back graphic</span><br><span>Sleeves: Half</span><br><span>Care: Machine wash cold, avoid ironing over print</span><br><span>Unisex </span></p>",Tactlifestyle ,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Comic,true,Size,s,product.metafields.shopify.size,,,,,,,,0.0,shopify,5,deny,manual,1200.00,1499.00,true,true,159.0,g,1,g,"",https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_15.jpg?v=1755614491,1,Why So Serious? Oversized Tee Tactlifestyle,false,,"Comic culture by Tactlifestyle, Free Delivery. Hurry up, Show Now.",,,adult,,,,,,,,,,,adults,,green,cotton,crew,s; m; l; xl,short,unisex; male,,,,,,,kg,,,active
+why-so-serious-oversized-tee,,,,,,,,,m,,,,,,,,,500.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_12.jpg?v=1755614498,2,Why So Serious? Oversized Tee Tactlifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+why-so-serious-oversized-tee,,,,,,,,,l,,,,,,,,,500.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_14.jpg?v=1755614502,3,Why So Serious? Oversized Tee Tactlifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+why-so-serious-oversized-tee,,,,,,,,,xl,,,,,,,,,500.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_13.jpg?v=1755614508,4,Why So Serious? Oversized Tee Tactlifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wolverine-claw-oversized-tee,Wolverine Claw Oversized Tee,"<p>Snikt! The claws are out and so is your style. Our Wolverine Graphic Tee from the Comic Culture collection is here to slice through the boring fits. Made with super soft cotton and packed with mutant-level drip, this tee’s oversized fit and bold back print are ready to make you the main character—whether you’re chilling, flexing, or saving the world.<br><br></p>
+<p>MODEL IS WEARING M SIZE. 5'10</p>
+<ul>
+<li data-start=""684"" data-end=""721"">
+<p data-start=""686"" data-end=""721""><strong data-start=""686"" data-end=""699"">Material:</strong> 100% premium cotton</p>
+</li>
+<li data-start=""722"" data-end=""768"">
+<p data-start=""724"" data-end=""768""><strong data-start=""724"" data-end=""732"">Fit:</strong> Oversized, relaxed streetwear fit</p>
+</li>
+<li data-start=""769"" data-end=""829"">
+<p data-start=""771"" data-end=""829""><strong data-start=""771"" data-end=""781"">Color:</strong> Muted lavender with vibrant Wolverine graphic</p>
+</li>
+<li data-start=""830"" data-end=""864"">
+<p data-start=""832"" data-end=""864""><strong data-start=""832"" data-end=""845"">Neckline:</strong> Ribbed crew neck</p>
+</li>
+<li data-start=""865"" data-end=""895"">
+<p data-start=""867"" data-end=""895""><strong data-start=""867"" data-end=""879"">Sleeves:</strong> Short sleeves</p>
+</li>
+<li data-start=""896"" data-end=""952"">
+<p data-start=""898"" data-end=""952""><strong data-start=""898"" data-end=""908"">Print:</strong> High-quality, fade-resistant back graphic</p>
+</li>
+<li data-start=""953"" data-end=""1015"">
+<p data-start=""955"" data-end=""1015""><strong data-start=""955"" data-end=""964"">Care:</strong> Machine wash cold, do not bleach, tumble dry low</p>
+</li>
+<li data-start=""1016"" data-end=""1057"">
+<p data-start=""1018"" data-end=""1057""><strong data-start=""1018"" data-end=""1038"">Sizes Available:</strong> S, M, L, XL</p>
+</li>
+<li data-start=""1058"" data-end=""1145"">
+<p data-start=""1060"" data-end=""1145""><strong data-start=""1060"" data-end=""1074"">Style Tip:</strong> Pair with baggy jeans or cargos for that true comic-streetwear vibe.</p>
+</li>
+</ul>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Comic,true,Size,s,product.metafields.shopify.size,,,,,,,,300.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Wolverine_claw.jpg?v=1759149993,1,Light blue t-shirt with a white embroidered design on a dark background,false,Wolverine Claw Oversized Tee - TacT Lifestyle,"Unleash epic style with the Wolverine Claw Oversized Tee. Made from soft cotton, this tee boasts a bold graphic for a heroic, relaxed fit. ",,,adult,,,,,,,,,,,adults,,purple,cotton,crew,s; m; l; xl,short,male,,,,,,,kg,,,active
+wolverine-claw-oversized-tee,,,,,,,,,m,,,,,,,,,300.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Copy_of_Z_M-60.jpg?v=1759149993,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wolverine-claw-oversized-tee,,,,,,,,,l,,,,,,,,,300.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_19.jpg?v=1759149993,3,Wolverine Claw Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wolverine-claw-oversized-tee,,,,,,,,,xl,,,,,,,,,300.0,shopify,5,deny,manual,1200.00,1499.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_16.jpg?v=1759149993,4,Wolverine Claw Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wolverine-claw-oversized-tee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_17.jpg?v=1759149993,5,Wolverine Claw Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+wolverine-claw-oversized-tee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_18.jpg?v=1759149993,6,Wolverine Claw Oversized Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+wonder-woman-crop-top,Wonder Woman Regular Cropped Tee,"<p>Truth. Power. Style. This Wonder Woman Crop Tee from our Comic Culture collection is here to prove you don’t need a lasso to turn heads. With its bold WW emblem and effortless cropped fit, it’s giving fierce Amazon energy with a side of everyday cool. Whether you’re saving the day or just saving your weekend plans, this one’s your armor of choice.<br></p>
+<ul data-start=""442"" data-end=""556"">
+<li data-start=""475"" data-end=""500"">
+<p data-start=""477"" data-end=""500"">Oversized cropped fit</p>
+</li>
+<li data-start=""501"" data-end=""529"">
+<p data-start=""503"" data-end=""529"">Soft &amp; breathable fabric</p>
+</li>
+<li data-start=""530"" data-end=""545"">
+<p data-start=""532"" data-end=""545"">100% cotton</p>
+</li>
+<li data-start=""546"" data-end=""556"">
+<p data-start=""548"" data-end=""556"">Unisex</p>
+</li>
+</ul>
+<p data-start=""558"" data-end=""666"" data-is-last-node="""" data-is-only-node=""""><strong data-start=""558"" data-end=""574"">Styling Tip:</strong><br data-start=""574"" data-end=""577"">Pair it with high-waist cargos or a denim skirt and let the Amazonian energy do the rest.</p>",TacT Lifestyle,Apparel & Accessories > Clothing > Clothing Tops > T-Shirts,"",Comic,true,Size,xs,product.metafields.shopify.size,,,,,,,,0.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/wonder_women_tee.jpg?v=1755527192,1,Person wearing a green t-shirt with Wonder Woman logo,false,Wonder Woman Regular Cropped Tee - TacT Lifestyle,Truth. Power. Style. This Wonder Woman Crop Tee from our Comic Culture collection is here to prove you don’t need a lasso to turn heads. With its bold  - TacT Lifestyle,212.0,,,,,,,,,,,,,,,green,cotton,,xs; s; m; l,short,female,,,,,,,kg,,,active
+wonder-woman-crop-top,,,,,,,,,s,,,,,,,,,0.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/Wonderwomentee.jpg?v=1755526166,2,Person wearing a green t-shirt with a superhero logo on a white background,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wonder-woman-crop-top,,,,,,,,,m,,,,,,,,,0.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/WonderWomenTee3.jpg?v=1755526693,3,Person wearing a green shirt with hands on hips against a white background,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wonder-woman-crop-top,,,,,,,,,l,,,,,,,,,0.0,shopify,5,deny,manual,640.00,799.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0621/4248/0454/files/2_22.jpg?v=1755363688,4,Wonder Woman Regular Cropped Tee TacT Lifestyle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kg,,,
