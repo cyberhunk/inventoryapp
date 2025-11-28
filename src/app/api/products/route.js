@@ -6,7 +6,7 @@ export async function POST(req) {
     console.log("API /products body:", body);
 
     const client = await clientPromise;
-    const db = client.db(process.env.MONGODB_DB || "inventoryapp");
+    const db = client.db(process.env.MONGODB_DB || "productdata");
 
     const res = await db.collection("orders").insertOne(body);
 

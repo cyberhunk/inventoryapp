@@ -1,7 +1,7 @@
-// lib/mongodb.js
+
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI; // .env.local me set karo
+const uri = process.env.MONGODB_URI; 
 const options = {};
 
 let client;

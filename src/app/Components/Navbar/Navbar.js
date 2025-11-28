@@ -35,17 +35,12 @@ export default function Navbar() {
               Home
             </Link> */}
 
-            <Link
-              href="/products"
-              className="text-sm font-medium text-slate-700 hover:text-slate-900"
-            >
-              Product
-            </Link>
+        
           </div>
 
           {/* Search + Bill */}
           <div className="flex items-center space-x-3">
-            <form onSubmit={onSearch} className="flex items-center">
+            {/* <form onSubmit={onSearch} className="flex items-center">
               <label htmlFor="search" className="sr-only">
                 Search
               </label>
@@ -65,7 +60,7 @@ export default function Navbar() {
                   className="absolute right-1 top-1/2 -translate-y-1/2 p-1 rounded-full hover:bg-slate-100"
                 ></button>
               </div>
-            </form>
+            </form> */}
 
             <Link
               href="/bil"
