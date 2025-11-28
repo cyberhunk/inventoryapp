@@ -24,3 +24,40 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ................. */
+@media print {
+  /* By default sab hide */
+  body * {
+    visibility: hidden;
+  }
+
+  /* Sirf invoice container dikhana */
+  #invoice,
+  #invoice * {
+    visibility: visible;
+  }
+
+  /* Invoice ko full page pe lao */
+  #invoice {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    padding: 16px;
+    box-shadow: none !important;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+  }
+
+  /* Buttons, form controls wagairah hide (safety) */
+  button,
+  input,
+  select,
+  textarea {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+  }
+}

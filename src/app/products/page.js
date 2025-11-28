@@ -2,6 +2,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import logo from "../../../public/logo.png";
+
 
 const productNames = [
   '"Hey Puddin" Regular Crop Top',
@@ -58,6 +60,9 @@ export default function OrderFormPage() {
   const [city, setCity] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+  //   proint
+  const [lastOrder, setLastOrder] = useState(null);
+  const [showInvoice, setShowInvoice] = useState(false);
 
   // filtered suggestions based on typed text
   const suggestions = useMemo(() => {
@@ -96,7 +101,8 @@ export default function OrderFormPage() {
       const data = await res.json();
       if (!res.ok || !data.ok) throw new Error();
       //   .................
-      
+      setLastOrder(payload);
+      setShowInvoice(true);
 
       setMessage("Order saved successfully.");
     } catch {
@@ -107,6 +113,9 @@ export default function OrderFormPage() {
   };
 
   //   ldkjf
+  const handlePrint = () => {
+    window.print();
+  };
 
   return (
     <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-10">
@@ -335,6 +344,158 @@ export default function OrderFormPage() {
           </div>
         </div>
       </div>
+      {showInvoice && lastOrder && (
+        <div
+          id="invoice"
+          className="mt-6 bg-white border border-slate-300 rounded-2xl shadow-md px-6 py-5"
+        >
+          {/* Header with logo and shop details */}
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-3">
+              {/* Shop logo / initials */}
+              <div className="w-auto h-12  bg-slate-900 flex items-center justify-center text-white text-xs font-semibold overflow-hidden">
+                {/* <img src="/tact-logo.png" alt="TacT Lifestyle" className="w-full h-full object-cover" /> */}
+                <img src={logo.src} alt="Logo" className="h-18 w-auto" />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold text-slate-900">
+                  TacT Lifestyle
+                </h2>
+                <p className="text-xs text-slate-600">
+                  Premium Streetwear Clothing • Indore, India
+                </p>
+                <p className="text-xs text-slate-500">
+                  tactlifestyle.store • support@tactlifestyle.store
+                </p>
+              </div>
+            </div>
+
+            <div className="text-right text-xs text-slate-600">
+              <p>
+                Invoice Date: {new Date(lastOrder.createdAt).toLocaleString()}
+              </p>
+            </div>
+          </div>
+
+          <hr className="border-slate-200 mb-4" />
+
+          {/* Customer + shop info */}
+          <div className="grid md:grid-cols-2 gap-4 text-sm mb-4">
+            <div className="space-y-1">
+              <h3 className="font-semibold text-slate-800 mb-1">Bill To</h3>
+              <p>{lastOrder.customer.fullName}</p>
+              <p>{lastOrder.customer.city}</p>
+              <p>Mobile: {lastOrder.customer.phone}</p>
+              <p>Email: {lastOrder.customer.email}</p>
+            </div>
+
+            <div className="space-y-1 md:text-right">
+              <h3 className="font-semibold text-slate-800 mb-1">Ship From</h3>
+              <p>TacT Lifestyle</p>
+              <p>Indore, Madhya Pradesh</p>
+              <p>India</p>
+            </div>
+          </div>
+
+          {/* Line item table */}
+          <table className="w-full text-sm border border-slate-200 mb-4">
+            <thead className="bg-slate-100">
+              <tr>
+                <th className="text-left px-3 py-2 border-b border-slate-200">
+                  Product
+                </th>
+                <th className="text-left px-3 py-2 border-b border-slate-200">
+                  Size / Color
+                </th>
+                <th className="text-right px-3 py-2 border-b border-slate-200">
+                  Qty
+                </th>
+                <th className="text-right px-3 py-2 border-b border-slate-200">
+                  Price
+                </th>
+                <th className="text-right px-3 py-2 border-b border-slate-200">
+                  Total
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-3 py-2 border-b border-slate-200">
+                  {lastOrder.productName}
+                </td>
+                <td className="px-3 py-2 border-b border-slate-200">
+                  {lastOrder.size} / {lastOrder.color}
+                </td>
+                <td className="px-3 py-2 text-right border-b border-slate-200">
+                  {lastOrder.quantity}
+                </td>
+                <td className="px-3 py-2 text-right border-b border-slate-200">
+                  ₹{lastOrder.price}
+                </td>
+                <td className="px-3 py-2 text-right border-b border-slate-200">
+                  ₹
+                  {Number(lastOrder.price || 0) *
+                    Number(lastOrder.quantity || 1)}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          {/* Totals + thank you */}
+          <div className="flex justify-between items-start mb-3 text-sm">
+            <div className="text-xs text-slate-500">
+              <p>Payment Status: Pending / Paid</p>
+            </div>
+            <div className="w-48">
+              <div className="flex justify-between py-1">
+                <span className="text-slate-600">Subtotal</span>
+                <span className="font-medium text-slate-800">
+                  ₹
+                  {Number(lastOrder.price || 0) *
+                    Number(lastOrder.quantity || 1)}
+                </span>
+              </div>
+              <div className="flex justify-between py-1">
+                <span className="text-slate-600">Tax</span>
+                <span className="font-medium text-slate-800">₹0</span>
+              </div>
+              <div className="flex justify-between py-1 border-t border-slate-200 mt-1 pt-1">
+                <span className="font-semibold text-slate-900">
+                  Grand Total
+                </span>
+                <span className="font-semibold text-slate-900">
+                  ₹
+                  {Number(lastOrder.price || 0) *
+                    Number(lastOrder.quantity || 1)}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-xs text-slate-600 mt-4">
+            Thank you for shopping with TacT Lifestyle. We hope you enjoy your
+            new fit. For any support, contact us at support@tactlifestyle.store.
+          </p>
+
+          {/* Screen-only buttons (print / download) */}
+          <div className="mt-4 flex gap-2 justify-end">
+            <button
+              type="button"
+              onClick={handlePrint}
+              className="rounded-lg bg-blue-600 text-white text-xs px-3 py-1.5 hover:bg-blue-500"
+            >
+              Print bill
+            </button>
+            <button
+              type="button"
+              onClick={handlePrint}
+              className="rounded-lg bg-slate-800 text-white text-xs px-3 py-1.5 hover:bg-slate-700"
+            >
+              Download PDF
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
