@@ -19,6 +19,10 @@
   }
 }
 
+button{
+  cursor: pointer;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -60,4 +64,28 @@ body {
   body {
     background: #ffffff !important;
   }
+   .no-print {
+    display: none !important;
+  }
+}
+
+
+
+
+/* Add to your global CSS or Tailwind config */
+.glass-popup {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 25px 45px -10px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+.dark .glass-popup {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 25px 45px -10px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
 }

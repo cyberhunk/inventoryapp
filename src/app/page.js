@@ -1,9 +1,8 @@
-
 "use client";
 
 import { useState, useMemo } from "react";
 import logo from "../../public/logo.png";
-
+import InvoicePopup from "./Components/InvoicePopup/InvoicePopup";
 
 const productNames = [
   '"Hey Puddin" Regular Crop Top',
@@ -34,7 +33,7 @@ const productNames = [
   "Wonder Woman Regular Cropped Tee",
 ];
 
-const sizes = [ "S", "M", "L", "XL"];
+const sizes = ["S", "M", "L", "XL"];
 const colors = [
   "Black",
   "White",
@@ -115,6 +114,13 @@ export default function OrderFormPage() {
   //   ldkjf
   const handlePrint = () => {
     window.print();
+  };
+  //   const [showInvoice, setShowInvoice] = useState(false);
+  // const [lastOrder, setLastOrder] = useState(null);
+
+  const handleShowInvoice = (order) => {
+    setLastOrder(order);
+    setShowInvoice(true);
   };
 
   return (
@@ -344,17 +350,26 @@ export default function OrderFormPage() {
           </div>
         </div>
       </div>
-      {showInvoice && lastOrder && (
+
+      {/* invoice popup */}
+
+      <InvoicePopup
+        showInvoice={showInvoice}
+        lastOrder={lastOrder}
+        onClose={() => setShowInvoice(false)}
+        handlePrint={handlePrint}   // IMPORTANT: prop pass karo
+      />
+      {/* {showInvoice && lastOrder && (
         <div
           id="invoice"
           className="mt-6 bg-white border border-slate-300 rounded-2xl shadow-md px-6 py-5"
         >
-          {/* Header with logo and shop details */}
+         
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-3">
-              {/* Shop logo / initials */}
+              
               <div className="w-auto h-12  bg-slate-900 flex items-center justify-center text-white text-xs font-semibold overflow-hidden">
-                {/* <img src="/tact-logo.png" alt="TacT Lifestyle" className="w-full h-full object-cover" /> */}
+           
                 <img src={logo.src} alt="Logo" className="h-18 w-auto" />
               </div>
               <div>
@@ -379,7 +394,7 @@ export default function OrderFormPage() {
 
           <hr className="border-slate-200 mb-4" />
 
-          {/* Customer + shop info */}
+        
           <div className="grid md:grid-cols-2 gap-4 text-sm mb-4">
             <div className="space-y-1">
               <h3 className="font-semibold text-slate-800 mb-1">Bill To</h3>
@@ -397,7 +412,7 @@ export default function OrderFormPage() {
             </div>
           </div>
 
-          {/* Line item table */}
+       
           <table className="w-full text-sm border border-slate-200 mb-4">
             <thead className="bg-slate-100">
               <tr>
@@ -441,7 +456,7 @@ export default function OrderFormPage() {
             </tbody>
           </table>
 
-          {/* Totals + thank you */}
+         
           <div className="flex justify-between items-start mb-3 text-sm">
             <div className="text-xs text-slate-500">
               <p>Payment Status: Pending / Paid</p>
@@ -477,7 +492,7 @@ export default function OrderFormPage() {
             new fit. For any support, contact us at  Contact@tactlifestyle.store.
           </p>
 
-          {/* Screen-only buttons (print / download) */}
+         
           <div className="mt-4 flex gap-2 justify-end">
             <button
               type="button"
@@ -495,7 +510,7 @@ export default function OrderFormPage() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
