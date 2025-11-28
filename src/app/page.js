@@ -33,7 +33,7 @@ const productNames = [
   "Wonder Woman Regular Cropped Tee",
 ];
 
-const sizes = ["S", "M", "L", "XL"];
+const sizes = ["xs","S", "M", "L", "XL"];
 const colors = [
   "Black",
   "White",
@@ -102,6 +102,18 @@ export default function OrderFormPage() {
       //   .................
       setLastOrder(payload);
       setShowInvoice(true);
+
+      // rest form
+      setProductName("");
+      setTypedName("");
+      setSize("M");
+      setColor(colors[0]);
+      setPrice("");
+      setQuantity(1);
+      setFullName("");
+      setEmail("");
+      setPhone("");
+      setCity("");
 
       setMessage("Order saved successfully.");
     } catch {
@@ -357,7 +369,7 @@ export default function OrderFormPage() {
         showInvoice={showInvoice}
         lastOrder={lastOrder}
         onClose={() => setShowInvoice(false)}
-        handlePrint={handlePrint}   // IMPORTANT: prop pass karo
+        handlePrint={handlePrint} // IMPORTANT: prop pass karo
       />
       {/* {showInvoice && lastOrder && (
         <div

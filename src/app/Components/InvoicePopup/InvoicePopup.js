@@ -1,17 +1,23 @@
-import { useState } from "react";
-import logo from "../../../../public/logo.png"; 
+"use client";
+import { useEffect, useState } from "react";
+import logo from "../../../../public/logo.png";
 
 export default function InvoicePopup({
   showInvoice,
   lastOrder,
   onClose,
   handlePrint,
-})
-
- {
+}) {
   if (!showInvoice || !lastOrder) return null;
 
-  
+   const [invoiceNumber, setInvoiceNumber] = useState("");
+
+  useEffect(() => {
+    // Random invoice number generate karna
+    const randomNum = Math.floor(100 + Math.random() * 900); 
+    const datePart = new Date().getTime(); 
+    setInvoiceNumber(`INV-${datePart}-${randomNum}`);
+  }, []);
 
   return (
     <>
@@ -24,7 +30,7 @@ export default function InvoicePopup({
       {/* Centered Popup */}
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none ">
         <div
-          className=" pointer-events-auto "
+          className=" pointer-events-auto relative "
           onClick={(e) => e.stopPropagation()}
         >
           {/* === Yahi pura tumhara invoice code === */}
@@ -57,6 +63,7 @@ export default function InvoicePopup({
                     ? new Date(lastOrder.createdAt).toLocaleString()
                     : "--"}
                 </p>
+                <p>Invoice : {invoiceNumber}</p>
               </div>
             </div>
 
@@ -124,7 +131,8 @@ export default function InvoicePopup({
 
             <div className="flex justify-between items-start mb-3 text-sm">
               <div className="text-xs text-slate-500">
-                <p>Payment Status: Pending / Paid</p>
+                              <p>{lastOrder._id}</p>
+                <p>Payment Status: Paid</p>
               </div>
               <div className="w-48">
                 <div className="flex justify-between py-1">
@@ -182,7 +190,7 @@ export default function InvoicePopup({
               onClick={onClose}
               className=" hover:bg-slate-800 text-red-900  text-sm font-medium"
             >
-                Close
+              Close
             </button>
           </div>
         </div>

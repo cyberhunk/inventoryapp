@@ -1,4 +1,5 @@
 import clientPromise from "@/lib/mongodb";
+import { ObjectId } from "mongodb";
 
 export async function POST(req) {
   try {
@@ -38,6 +39,83 @@ export async function GET() {
     });
   } catch (err) {
     console.error("API /products GET error:", err);
+    return new Response(JSON.stringify({ ok: false, error: String(err) }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+}
+
+
+
+// delete all orders - for testing
+export async function DELETE(req) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get("id");
+
+    if (!id) {
+      return new Response(JSON.stringify({ ok: false, error: "Missing id" }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    const client = await clientPromise;
+    const db = client.db(process.env.MONGODB_DB || "productdata");
+
+    const result = await db
+      .collection("orders")
+      .deleteOne({ _id: new ObjectId(id) });
+
+    return new Response(
+      JSON.stringify({ ok: true, deletedCount: result.deletedCount }),
+      {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      }
+    );
+  } catch (err) {
+    console.error("API /products DELETE error:", err);
+    return new Response(JSON.stringify({ ok: false, error: String(err) }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+}
+
+
+// kkk
+export async function PATCH(req) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get("id");
+
+    if (!id) {
+      return new Response(JSON.stringify({ ok: false, error: "Missing id" }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    const updates = await req.json(); // e.g. { price: 1200, quantity: 2 }
+
+    const client = await clientPromise;
+    const db = client.db(process.env.MONGODB_DB || "productdata");
+
+    const result = await db
+      .collection("orders")
+      .updateOne({ _id: new ObjectId(id) }, { $set: updates });
+
+    return new Response(
+      JSON.stringify({ ok: true, matchedCount: result.matchedCount, modifiedCount: result.modifiedCount }),
+      {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      }
+    );
+  } catch (err) {
+    console.error("API /products PATCH error:", err);
     return new Response(JSON.stringify({ ok: false, error: String(err) }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
