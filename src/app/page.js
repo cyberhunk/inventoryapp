@@ -337,6 +337,7 @@ export default function OrderFormPage() {
               Current selection
             </h2>
             <div className="space-y-2 text-sm text-slate-700">
+
               <p>
                 <span className="text-slate-500">Product:</span>{" "}
                 {productName || "Not selected"}
@@ -354,6 +355,10 @@ export default function OrderFormPage() {
               <p>
                 <span className="text-slate-500">Quantity:</span> {quantity}
               </p>
+               
+           
+
+
             </div>
             <div className="mt-5 border-t border-slate-200 pt-3 text-xs text-slate-500">
               Simple internal tool UI for managing TacT Lifestyle apparel
