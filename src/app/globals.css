@@ -41,6 +41,10 @@ body {
     visibility: hidden;
   }
 
+  button{
+    display: none;
+  }
+
   /* sirf invoice + uske children dikhaye */
   #invoice,
   #invoice * {

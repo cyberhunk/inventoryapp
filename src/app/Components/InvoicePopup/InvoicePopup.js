@@ -279,7 +279,7 @@ export default function InvoicePopup({
             <hr className="border-slate-200 mb-4" />
 
             {/* Customer + shop info */}
-            <div className="grid md:grid-cols-2 gap-4 text-sm mb-4">
+            <div className="grid md:grid-cols-2 gap-2 text-sm mb-4">
               <div className="space-y-1">
                 <h3 className="font-semibold text-slate-800 mb-1">Bill To</h3>
                 <p>{lastOrder.customer?.fullName || "--"}</p>
@@ -291,6 +291,7 @@ export default function InvoicePopup({
               <div className="space-y-1 md:text-right">
                 <h3 className="font-semibold text-slate-800 mb-1">Ship From</h3>
                 <p>Tact Lifestyle</p>
+                <p>60, New Dewas Road</p>
                 <p>Indore, Madhya Pradesh</p>
                 <p>India</p>
               </div>
@@ -359,14 +360,14 @@ export default function InvoicePopup({
                 </div>
                 <div className="flex justify-between py-1">
                   <span className="text-slate-600">Tax</span>
-                  <span className="font-medium text-slate-800">₹0</span>
+                  <span className="font-medium text-slate-800">5%</span>
                 </div>
                 <div className="flex justify-between py-1 border-t border-slate-200 mt-1 pt-1">
                   <span className="font-semibold text-slate-900">
                     Grand Total
                   </span>
                   <span className="font-semibold text-slate-900">
-                    ₹{subtotal}
+                    ₹{(subtotal * 1.05).toFixed(2)}
                   </span>
                 </div>
               </div>
@@ -398,14 +399,14 @@ export default function InvoicePopup({
           </div>
 
           {/* Close button */}
-          {/* <div className="flex justify-end p-4 pt-0 border-t border-slate-200/50 absolute top-8 right-0">
+          <div className="flex justify-end p-4 pt-0  absolute top-8 right-0">
             <button
               onClick={onClose}
               className="text-sm font-medium text-white bg-red-500 px-8 py-2 rounded hover:text-red-700"
             >
               Close
             </button>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
