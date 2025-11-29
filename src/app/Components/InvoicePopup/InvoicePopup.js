@@ -226,7 +226,6 @@ export default function InvoicePopup({
       0
     ) || 0;
 
-
   // const gstRate = 0.05;
   // GST amount
   // const taxAmount = subtotal * gstRate;
@@ -344,11 +343,11 @@ export default function InvoicePopup({
                         {item.quantity}
                       </td>
                       <td className="px-3 py-2 text-right border-b border-slate-200">
-                        {/* ₹{item.price} */}
-                          ₹{(item.price - (item.price * 5) / 100).toFixed(2)}
+                        {/* ₹{item.price} */}₹
+                        {(item.price - (item.price * 5) / 100).toFixed(2)}
                       </td>
                       <td className="px-3 py-2 text-right border-b border-slate-200">
-                        ₹{item.price * 0.05}
+                        ₹{(item.price * 0.05).toFixed(2)}
                       </td>
                       <td className="px-3 py-2 text-right border-b border-slate-200">
                         ₹{lineTotal}
