@@ -189,16 +189,16 @@ export default function OrdersPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 px-4 py-8">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-2xl font-semibold text-slate-900 mb-4">
+    <div className="min-h-screen bg-slate-50 px-4 w-full  py-8">
+      <div className="max-w-8xl mx-auto">
+        <h1 className="text-2xl text-center font-semibold text-slate-900 mb-4">
           Saved Orders
         </h1>
 
         {orders.length === 0 ? (
           <p className="text-slate-600 text-sm">No orders saved yet.</p>
         ) : (
-          <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-x-auto overflow-y-auto ">
+          <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-x-auto overflow-y-auto ">
             <table className="w-full text-sm min-w-[1000px] overflow-x-auto">
               <thead className="bg-slate-100 border-b border-slate-200">
                 <tr>
