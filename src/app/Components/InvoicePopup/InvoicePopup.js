@@ -230,7 +230,7 @@ export default function InvoicePopup({
     <>
       {/* Blur Overlay */}
       <div
-        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 "
+        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40  "
         onClick={onClose}
       />
 
@@ -238,7 +238,7 @@ export default function InvoicePopup({
       <div className="fixed  inset-0 z-50 flex items-center justify-center p-4 pointer-events-none overflow-auto mt-15 mb-5 pt-30">
         <div
           id="invoice"
-          className="pointer-events-auto relative"
+          className="pointer-events-auto "
           onClick={(e) => e.stopPropagation()}
         >
           {/* Invoice */}
@@ -398,14 +398,14 @@ export default function InvoicePopup({
           </div>
 
           {/* Close button */}
-          <div className="flex justify-end p-4 pt-0 border-t border-slate-200/50 absolute top-8 right-0">
+          {/* <div className="flex justify-end p-4 pt-0 border-t border-slate-200/50 absolute top-8 right-0">
             <button
               onClick={onClose}
-              className="text-sm font-medium text-red-900 hover:text-red-700"
+              className="text-sm font-medium text-white bg-red-500 px-8 py-2 rounded hover:text-red-700"
             >
               Close
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -609,10 +609,10 @@ const colors = [
 
 export default function page() {
   // customer
-  const [fullName, setFullName] = useState("om");
-  const [email, setEmail] = useState("om@gmail.com");
-  const [phone, setPhone] = useState("9090");
-  const [city, setCity] = useState("kljlkj");
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [city, setCity] = useState("");
 
   // multiple items
   const [items, setItems] = useState([
