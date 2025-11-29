@@ -592,6 +592,27 @@ const productNames = [
   "Why So Serious? Oversized Tee",
   "Wolverine Claw Oversized Tee",
   "Wonder Woman Regular Cropped Tee",
+   "Ribbed Top (beige)",
+  "Ribbed Top (Cement Blue)",
+  "Ribbed Top (Onion)",
+  "Ribbed Top (Lavender)",
+  "Signature Shorts (Lavender)",
+  "Signature Shorts (Beige)",
+  "Signature Shorts (Onion)",
+  "Signature Shorts (Cement Blue)",
+  "Spidy Hoodie",
+  "Peace Of Mind Hoodie",
+  "Skull Illusion Hoodie",
+  "Black Signature Swearshirt",
+  "BBT Sweatshirt",
+  "White Signature Sweatshirt",
+  "Black Signature Cropped Sweatshirt",
+  "Neon Signature Cropped Hoodie",
+  "Neon Signature Jogger (Regular Fit)",
+  "Black Signature Jogger (Regular Fit)",
+  "Straight Fit Signature (Beige)",
+  "Straight Fit Signature (Cement Blue)",
+  "Straight Fit Signature (Olive Green)"
 ];
 
 const sizes = ["XS", "S", "M", "L", "XL"];
