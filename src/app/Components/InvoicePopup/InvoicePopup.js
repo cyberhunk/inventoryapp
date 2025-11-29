@@ -226,6 +226,13 @@ export default function InvoicePopup({
       0
     ) || 0;
 
+
+  // const gstRate = 0.05;
+  // GST amount
+  // const taxAmount = subtotal * gstRate;
+  // Grand total including GST
+  // const grandTotal = subtotal + taxAmount;
+
   return (
     <>
       {/* Blur Overlay */}
@@ -314,6 +321,9 @@ export default function InvoicePopup({
                     Price
                   </th>
                   <th className="text-right px-3 py-2 border-b border-slate-200">
+                    Tax(5%)
+                  </th>
+                  <th className="text-right px-3 py-2 border-b border-slate-200">
                     Total
                   </th>
                 </tr>
@@ -334,7 +344,11 @@ export default function InvoicePopup({
                         {item.quantity}
                       </td>
                       <td className="px-3 py-2 text-right border-b border-slate-200">
-                        ₹{item.price}
+                        {/* ₹{item.price} */}
+                          ₹{(item.price - (item.price * 5) / 100).toFixed(2)}
+                      </td>
+                      <td className="px-3 py-2 text-right border-b border-slate-200">
+                        ₹{item.price * 0.05}
                       </td>
                       <td className="px-3 py-2 text-right border-b border-slate-200">
                         ₹{lineTotal}
@@ -352,22 +366,25 @@ export default function InvoicePopup({
                 <p>Payment Status: Paid</p>
               </div>
               <div className="w-48">
-                <div className="flex justify-between py-1">
+                {/* <div className="flex justify-between py-1">
                   <span className="text-slate-600">Subtotal</span>
                   <span className="font-medium text-slate-800">
+                    ₹{subtotal - taxAmount.toFixed(2)}
                     ₹{subtotal}
                   </span>
                 </div>
                 <div className="flex justify-between py-1">
-                  <span className="text-slate-600">Tax</span>
-                  <span className="font-medium text-slate-800">5%</span>
-                </div>
-                <div className="flex justify-between py-1 border-t border-slate-200 mt-1 pt-1">
+                  <span className="text-slate-600">Tax (5%)</span>
+                  <span className="font-medium text-slate-800">
+                   ₹{subtotal.toFixed(2)}
+                  </span>
+                </div> */}
+                <div className="flex justify-between py-1 ">
                   <span className="font-semibold text-slate-900">
                     Grand Total
                   </span>
                   <span className="font-semibold text-slate-900">
-                    ₹{(subtotal * 1.05).toFixed(2)}
+                    ₹{subtotal}
                   </span>
                 </div>
               </div>
