@@ -1,6 +1,32 @@
 import clientPromise from "@/lib/mongodb";
 import { ObjectId } from "mongodb";
 
+// export async function POST(req) {
+
+//   try {
+//     const body = await req.json();
+//     console.log("API /products body:", body);
+
+//     const client = await clientPromise;
+//     const db = client.db(process.env.MONGODB_DB || "productdata");
+
+//     const res = await db.collection("orders").insertOne(body);
+
+//     return new Response(JSON.stringify({ ok: true, id: res.insertedId }), {
+//       status: 201,
+//       headers: { "Content-Type": "application/json" },
+//     });
+//   } catch (err) {
+//     console.error("API /products error:", err);
+//     return new Response(JSON.stringify({ ok: false, error: String(err) }), {
+//       status: 500,
+//       headers: { "Content-Type": "application/json" },
+//     });
+//   }
+// }
+
+// import clientPromise from "@/lib/mongodb";
+
 export async function POST(req) {
   try {
     const body = await req.json();
@@ -9,7 +35,15 @@ export async function POST(req) {
     const client = await clientPromise;
     const db = client.db(process.env.MONGODB_DB || "productdata");
 
-    const res = await db.collection("orders").insertOne(body);
+    // yahan extra fields add kar sakte ho
+    const docToInsert = {
+      ...body, // items, customer, createdAt, etc.
+      status: body.status || "paid", // optional default
+      createdAt: body.createdAt || new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+
+    const res = await db.collection("orders").insertOne(docToInsert);
 
     return new Response(JSON.stringify({ ok: true, id: res.insertedId }), {
       status: 201,
@@ -24,14 +58,17 @@ export async function POST(req) {
   }
 }
 
-
-// get 
+// get
 export async function GET() {
   try {
     const client = await clientPromise;
     const db = client.db(process.env.MONGODB_DB || "productdata");
 
-    const orders = await db.collection("orders").find({}).sort({ createdAt: -1 }).toArray();
+    const orders = await db
+      .collection("orders")
+      .find({})
+      .sort({ createdAt: -1 })
+      .toArray();
 
     return new Response(JSON.stringify({ ok: true, orders }), {
       status: 200,
@@ -45,8 +82,6 @@ export async function GET() {
     });
   }
 }
-
-
 
 // delete all orders - for testing
 export async function DELETE(req) {
@@ -84,7 +119,6 @@ export async function DELETE(req) {
   }
 }
 
-
 // kkk
 export async function PATCH(req) {
   try {
@@ -108,7 +142,11 @@ export async function PATCH(req) {
       .updateOne({ _id: new ObjectId(id) }, { $set: updates });
 
     return new Response(
-      JSON.stringify({ ok: true, matchedCount: result.matchedCount, modifiedCount: result.modifiedCount }),
+      JSON.stringify({
+        ok: true,
+        matchedCount: result.matchedCount,
+        modifiedCount: result.modifiedCount,
+      }),
       {
         status: 200,
         headers: { "Content-Type": "application/json" },

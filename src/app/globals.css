@@ -19,7 +19,7 @@
   }
 }
 
-button{
+button {
   cursor: pointer;
 }
 
@@ -31,45 +31,33 @@ body {
 
 /* ................. */
 @media print {
-  /* By default sab hide */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* sab kuch hide */
   body * {
     visibility: hidden;
   }
 
-  /* Sirf invoice container dikhana */
+  /* sirf invoice + uske children dikhaye */
   #invoice,
   #invoice * {
     visibility: visible;
   }
 
-  /* Invoice ko full page pe lao */
+  /* invoice ko page ke top-left se start karo */
   #invoice {
-    position: absolute;
-    inset: 0;
-    margin: 0;
-    padding: 16px;
-    box-shadow: none !important;
-    border: 1px solid #e5e7eb;
-    background: #ffffff;
-  }
-
-  /* Buttons, form controls wagairah hide (safety) */
-  button,
-  input,
-  select,
-  textarea {
-    display: none !important;
-  }
-
-  body {
-    background: #ffffff !important;
-  }
-   .no-print {
-    display: none !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    transform: none !important;
   }
 }
-
-
 
 
 /* Add to your global CSS or Tailwind config */
@@ -77,15 +65,13 @@ body {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 
-    0 25px 45px -10px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 25px 45px -10px rgba(0, 0, 0, 0.3),
     0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 .dark .glass-popup {
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 
-    0 25px 45px -10px rgba(0, 0, 0, 0.5),
+  box-shadow: 0 25px 45px -10px rgba(0, 0, 0, 0.5),
     0 0 0 1px rgba(255, 255, 255, 0.05);
 }

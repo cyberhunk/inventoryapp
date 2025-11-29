@@ -1,4 +1,3 @@
-
 // "use client";
 
 // import { useEffect, useState } from "react";
@@ -100,17 +99,13 @@
 //   );
 // }
 
-
-
-// src/app/orders/page.js
 "use client";
-
 import { useEffect, useState } from "react";
 
 export default function OrdersPage() {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [savingId, setSavingId] = useState(null);   // edit ke time
+  const [savingId, setSavingId] = useState(null); // edit ke time
   const [deletingId, setDeletingId] = useState(null); // delete ke time
 
   useEffect(() => {
@@ -207,6 +202,7 @@ export default function OrdersPage() {
             <table className="w-full text-sm min-w-[1000px] overflow-x-auto">
               <thead className="bg-slate-100 border-b border-slate-200">
                 <tr>
+                  <th className="text-left px-2 py-2 w-2">No</th>
                   <th className="text-left px-4 py-2 w-100">Product</th>
                   <th className="text-left px-4 py-2">Size</th>
                   <th className="text-left px-4 py-2">Color</th>
@@ -221,60 +217,72 @@ export default function OrdersPage() {
                 </tr>
               </thead>
               <tbody>
-                {orders.map((order) => (
-                  <tr
-                    key={order._id}
-                    className="border-b last:border-b-0 border-slate-100"
-                  >
-                    <td className="px-4 py-2">{order.productName}</td>
-                    <td className="px-4 py-2">{order.size}</td>
-                    <td className="px-4 py-2">{order.color}</td>
-                    <td className="px-4 py-2 text-right">
-                      {order.quantity}
-                    </td>
-                    <td className="px-4 py-2 text-right">
-                      ₹{order.price ?? "-"}
-                    </td>
-                    <td className="px-4 py-2">
-                      {order.customer?.fullName || "-"}
-                    </td>
-                    <td className="px-4 py-2">
-                      {order.customer?.email || "-"}
-                    </td>
-                    <td className="px-4 py-2">
-                      {order.customer?.phone || "-"}
-                    </td>
-                    <td className="px-4 py-2">
-                      {order.customer?.city || "-"}
-                    </td>
-                    <td className="px-4 py-2 text-xs text-slate-500">
-                      {order.createdAt
-                        ? new Date(order.createdAt).toLocaleString()
-                        : "-"}
-                    </td>
-                    <td className="px-4 py-2">
-                      <div className="flex gap-2">
-                        <button
-                          onClick={() => handleQuickEdit(order)}
-                          className="px-2 py-1 text-xs rounded-md bg-amber-500 text-white hover:bg-amber-400 cursor-pointer"
-                          disabled={
-                            savingId === order._id ||
-                            deletingId === order._id
-                          }
-                        >
-                          {savingId === order._id ? "Saving..." : "Edit"}
-                        </button>
-                        <button
-                          onClick={() => handleDelete(order._id)}
-                          className="px-2 py-1 text-xs rounded-md bg-rose-600 text-white hover:bg-rose-500 cursor-pointer"
-                          disabled={deletingId === order._id}
-                        >
-                          {deletingId === order._id ? "Deleting..." : "Delete"}
-                        </button>
-                      </div>
-                    </td>
-                  </tr>
-                ))}
+                {orders.map((order, id) => {
+                  const firstItem = order.items?.[0]; // multi-items order ka first product
+                  return (
+                    <tr
+                      key={order._id}
+                      className="border-b last:border-b-0 border-slate-100"
+                    >
+                      <td className="px-2 py-2">{id + 1 || "-"}</td>
+                      <td className="px-4 py-2">
+                        {firstItem?.productName || order.productName || "-"}
+                      </td>
+                      <td className="px-4 py-2">
+                        {firstItem?.size || order.size || "-"}
+                      </td>
+                      <td className="px-4 py-2">
+                        {firstItem?.color || order.color || "-"}
+                      </td>
+                      <td className="px-4 py-2 text-right">
+                        {firstItem?.quantity ?? order.quantity ?? "-"}
+                      </td>
+                      <td className="px-4 py-2 text-right">
+                        ₹{firstItem?.price ?? order.price ?? "-"}
+                      </td>
+                      <td className="px-4 py-2">
+                        {order.customer?.fullName || "-"}
+                      </td>
+                      <td className="px-4 py-2">
+                        {order.customer?.email || "-"}
+                      </td>
+                      <td className="px-4 py-2">
+                        {order.customer?.phone || "-"}
+                      </td>
+                      <td className="px-4 py-2">
+                        {order.customer?.city || "-"}
+                      </td>
+                      <td className="px-4 py-2 text-xs text-slate-500">
+                        {order.createdAt
+                          ? new Date(order.createdAt).toLocaleString()
+                          : "-"}
+                      </td>
+
+                      <td className="px-4 py-2">
+                        <div className="flex gap-2">
+                          <button
+                            onClick={() => handleQuickEdit(order)}
+                            className="px-2 py-1 text-xs rounded-md bg-amber-500 text-white hover:bg-amber-400 cursor-pointer"
+                            disabled={
+                              savingId === order._id || deletingId === order._id
+                            }
+                          >
+                            {savingId === order._id ? "Saving..." : "Edit"}
+                          </button>
+                          <button
+                            onClick={() => handleDelete(order._id)}
+                            className="px-2 py-1 text-xs rounded-md bg-rose-600 text-white hover:bg-rose-500 cursor-pointer"
+                            disabled={deletingId === order._id}
+                          >
+                            {deletingId === order._id
+                              ? "Deleting..."
+                              : "Delete"}
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
