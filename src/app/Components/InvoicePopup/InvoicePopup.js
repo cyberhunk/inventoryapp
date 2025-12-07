@@ -255,8 +255,8 @@ export default function InvoicePopup({
             {/* Header */}
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
-                <div className="w-auto h-12 bg-slate-900 flex items-center justify-center text-white text-xs font-semibold overflow-hidden">
-                  <img src={logo.src} alt="Logo" className="h-18 w-auto" />
+                <div className="w-auto h-18 bg-white flex items-center justify-center text-white text-xs font-semibold overflow-hidden">
+                  <img src={logo.src} alt="Logo" className="h-15 w-auto" />
                 </div>
                 <div>
                   <h2 className="text-lg font-semibold text-slate-900">
