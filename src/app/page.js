@@ -805,16 +805,30 @@ export default function page() {
     setMessage("");
 
     const payload = {
-      items: items.map((it) => ({
-        productName: it.productName,
-        size: it.size,
-        color: it.color,
-        price: Number(it.price),
-        quantity: Number(it.quantity),
-      })),
+      items: items
+        .filter((item) => item.productName && item.price) // Empty items skip
+        .map((it, i) => {
+          const unitPrice = Number(it.price) || 0;
+          const qty = Number(it.quantity) || 1;
+          const lineTotal = unitPrice * qty;
+
+          console.log(
+            `Item ${i}: ${it.productName} - Unit: ₹${unitPrice}, Qty: ${qty}, Total: ₹${lineTotal}`
+          ); // Debug
+
+          return {
+            productName: it.productName,
+            size: it.size,
+            color: it.color,
+            price: unitPrice,
+            quantity: qty,
+            total: lineTotal, // ✅ Total add
+          };
+        }),
       customer: { fullName, email, phone, city },
       createdAt: new Date().toISOString(),
     };
+    console.log("Final payload:", payload);
 
     // yahan add karo
     const itemsSummary = payload.items
