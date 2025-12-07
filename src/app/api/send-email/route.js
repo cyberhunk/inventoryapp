@@ -14,23 +14,19 @@ export async function POST(req) {
       );
     }
 
-    console.log("SMTP_HOST", process.env.SMTP_HOST);
-    console.log("SMTP_PORT", process.env.SMTP_PORT);
-    console.log("SMTP_USER", process.env.SMTP_USER);
-    console.log("SMTP_PASS length", process.env.SMTP_PASS?.length);
+    console.log("GMAIL_USER", process.env.GMAIL_USER);
+    console.log("GMAIL_PASS length", process.env.GMAIL_PASS?.length);
 
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 465,
-      secure: Number(process.env.SMTP_PORT) === 465, // 465 -> true, 587 -> false
+      service: "gmail",
       auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
       },
     });
 
     const mailOptions = {
-      from: `"TacT Lifestyle" <${process.env.SMTP_USER}>`,
+      from: `"TacT Lifestyle" <${process.env.GMAIL_USER}>`,
       to,
       subject: "Thank you for shopping with TacT Lifestyle",
       html: `
@@ -59,3 +55,4 @@ export async function POST(req) {
     );
   }
 }
+

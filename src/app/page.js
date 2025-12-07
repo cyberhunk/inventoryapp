@@ -340,7 +340,7 @@
 //               <button
 //                 type="submit"
 //                 disabled={loading}
-//                 className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-medium 
+//                 className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-medium
 //                            text-white shadow-sm hover:bg-blue-500 disabled:opacity-60 transition"
 //               >
 //                 {loading ? "Saving..." : "Submit order"}
@@ -376,9 +376,6 @@
 //               <p>
 //                 <span className="text-slate-500">Quantity:</span> {quantity}
 //               </p>
-               
-           
-
 
 //             </div>
 //             <div className="mt-5 border-t border-slate-200 pt-3 text-xs text-slate-500">
@@ -402,12 +399,12 @@
 //           id="invoice"
 //           className="mt-6 bg-white border border-slate-300 rounded-2xl shadow-md px-6 py-5"
 //         >
-         
+
 //           <div className="flex items-center justify-between mb-4">
 //             <div className="flex items-center gap-3">
-              
+
 //               <div className="w-auto h-12  bg-slate-900 flex items-center justify-center text-white text-xs font-semibold overflow-hidden">
-           
+
 //                 <img src={logo.src} alt="Logo" className="h-18 w-auto" />
 //               </div>
 //               <div>
@@ -432,7 +429,6 @@
 
 //           <hr className="border-slate-200 mb-4" />
 
-        
 //           <div className="grid md:grid-cols-2 gap-4 text-sm mb-4">
 //             <div className="space-y-1">
 //               <h3 className="font-semibold text-slate-800 mb-1">Bill To</h3>
@@ -450,7 +446,6 @@
 //             </div>
 //           </div>
 
-       
 //           <table className="w-full text-sm border border-slate-200 mb-4">
 //             <thead className="bg-slate-100">
 //               <tr>
@@ -494,7 +489,6 @@
 //             </tbody>
 //           </table>
 
-         
 //           <div className="flex justify-between items-start mb-3 text-sm">
 //             <div className="text-xs text-slate-500">
 //               <p>Payment Status: Pending / Paid</p>
@@ -530,7 +524,6 @@
 //             new fit. For any support, contact us at  Contact@tactlifestyle.store.
 //           </p>
 
-         
 //           <div className="mt-4 flex gap-2 justify-end">
 //             <button
 //               type="button"
@@ -553,17 +546,10 @@
 //   );
 // }
 
-
-
-
-
-
-
-
-
 "use client";
 import { useState, useMemo } from "react";
 import InvoicePopup from "./Components/InvoicePopup/InvoicePopup";
+import emailjs from "emailjs-com";
 
 const productNames = [
   '"Hey Puddin" Regular Crop Top',
@@ -592,7 +578,7 @@ const productNames = [
   "Why So Serious? Oversized Tee",
   "Wolverine Claw Oversized Tee",
   "Wonder Woman Regular Cropped Tee",
-   "Ribbed Top (beige)",
+  "Ribbed Top (beige)",
   "Ribbed Top (Cement Blue)",
   "Ribbed Top (Onion)",
   "Ribbed Top (Lavender)",
@@ -612,7 +598,7 @@ const productNames = [
   "Black Signature Jogger (Regular Fit)",
   "Straight Fit Signature (Beige)",
   "Straight Fit Signature (Cement Blue)",
-  "Straight Fit Signature (Olive Green)"
+  "Straight Fit Signature (Olive Green)",
 ];
 
 const sizes = ["XS", "S", "M", "L", "XL"];
@@ -680,11 +666,137 @@ export default function page() {
 
   const updateItem = (index, field, value) => {
     setItems((prev) =>
-      prev.map((item, i) =>
-        i === index ? { ...item, [field]: value } : item
-      )
+      prev.map((item, i) => (i === index ? { ...item, [field]: value } : item))
     );
   };
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   setMessage("");
+
+  //   const payload = {
+  //     items: items.map((it) => ({
+  //       productName: it.productName,
+  //       size: it.size,
+  //       color: it.color,
+  //       price: Number(it.price),
+  //       quantity: Number(it.quantity),
+  //     })),
+  //     customer: { fullName, email, phone, city },
+  //     createdAt: new Date().toISOString(),
+  //   };
+
+  //   try {
+  //     const res = await fetch("/api/products", {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(payload),
+  //     });
+
+  //     const data = await res.json();
+  //     if (!res.ok || !data.ok) throw new Error();
+
+  //     setLastOrder(payload);
+  //     setShowInvoice(true);
+
+  //     // reset form
+  //     setItems([
+  //       {
+  //         productName: "",
+  //         typedName: "",
+  //         size: "M",
+  //         color: colors[0],
+  //         price: "",
+  //         quantity: 1,
+  //       },
+  //     ]);
+  //     setFullName("");
+  //     setEmail("");
+  //     setPhone("");
+  //     setCity("");
+
+  //     setMessage("Order saved successfully.");
+  //   } catch (err) {
+  //     console.error(err);
+  //     setMessage("Error saving order.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   setMessage("");
+
+  //   const payload = {
+  //     items: items.map((it) => ({
+  //       productName: it.productName,
+  //       size: it.size,
+  //       color: it.color,
+  //       price: Number(it.price),
+  //       quantity: Number(it.quantity),
+  //     })),
+  //     customer: { fullName, email, phone, city },
+  //     createdAt: new Date().toISOString(),
+  //   };
+
+  //   try {
+  //     // 1) Order save
+  //     const res = await fetch("/api/products", {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(payload),
+  //     });
+
+  //     const data = await res.json();
+  //     if (!res.ok || !data.ok) throw new Error();
+
+  //     // 2) Invoice state
+  //     setLastOrder(payload);
+  //     setShowInvoice(true);
+
+  //     // 3) Thank‑you email via EmailJS (no /api/send-email)
+  //     try {
+  //       await emailjs.send(
+  //         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+  //         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+  //         {
+  //           to_email: email,
+  //           customerName: fullName,
+  //           order_details: JSON.stringify(payload, null, 2),
+  //         },
+  //         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+  //       );
+  //     } catch (err) {
+  //       console.error("EmailJS send failed:", err);
+  //     }
+
+  //     // 4) Form reset
+  //     setItems([
+  //       {
+  //         productName: "",
+  //         typedName: "",
+  //         size: "M",
+  //         color: colors[0],
+  //         price: "",
+  //         quantity: 1,
+  //       },
+  //     ]);
+  //     setFullName("");
+  //     setEmail("");
+  //     setPhone("");
+  //     setCity("");
+
+  //     setMessage("Order saved successfully.");
+  //   } catch (err) {
+  //     console.error(err);
+  //     setMessage("Error saving order.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -703,7 +815,30 @@ export default function page() {
       createdAt: new Date().toISOString(),
     };
 
+    // yahan add karo
+    const itemsSummary = payload.items
+      .map(
+        (it, i) =>
+          `${i + 1}. ${it.productName} (${it.size}, ${it.color}) x${
+            it.quantity
+          } = ₹${it.price * it.quantity}`
+      )
+      .join("\n");
+
+    const orderSummary = `
+Name: ${fullName}
+Email: ${email}
+Phone: ${phone}
+City: ${city}
+
+Items:
+${itemsSummary}
+
+Created at: ${new Date(payload.createdAt).toLocaleString("en-IN")}
+`;
+
     try {
+      // 1) Order save
       const res = await fetch("/api/products", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -713,10 +848,27 @@ export default function page() {
       const data = await res.json();
       if (!res.ok || !data.ok) throw new Error();
 
+      // 2) Invoice state
       setLastOrder(payload);
       setShowInvoice(true);
 
-      // reset form
+      // 3) Thank‑you email via EmailJS
+      try {
+        await emailjs.send(
+          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+          {
+            to_email: email,
+            customerName: fullName,
+            order_details: orderSummary, 
+          },
+          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        );
+      } catch (err) {
+        console.error("EmailJS send failed:", err);
+      }
+
+      // 4) Form reset (same as before)
       setItems([
         {
           productName: "",
@@ -787,7 +939,7 @@ export default function page() {
                              placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/70 focus:border-transparent"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  required
+                  // required
                 />
               </div>
 
@@ -813,7 +965,7 @@ export default function page() {
                              placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/70 focus:border-transparent"
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
-                  required
+                  // required
                 />
               </div>
             </div>
@@ -824,7 +976,6 @@ export default function page() {
                 <h2 className="text-sm font-semibold text-slate-900">
                   Products in this order
                 </h2>
-              
               </div>
 
               {items.map((item, index) => {
@@ -961,9 +1112,9 @@ export default function page() {
                   </div>
                 );
               })}
-              
+
               <div className="text-end">
-                  <button
+                <button
                   type="button"
                   onClick={addItem}
                   className="text-xs px-3 py-1.5 rounded-full border border-blue-600 text-blue-600 hover:bg-blue-50"
