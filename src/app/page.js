@@ -619,7 +619,7 @@ const colors = [
 export default function page() {
   // customer
   const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("contact@tactlifestyle.store");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
 
