@@ -199,15 +199,16 @@ export default function OrdersPage() {
           <p className="text-slate-600 text-sm">No orders saved yet.</p>
         ) : (
           <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-x-auto overflow-y-auto ">
-            <table className="w-full text-sm min-w-[1000px] overflow-x-auto">
+            <table border={1} className="w-full text-sm min-w-[1000px] overflow-x-auto">
               <thead className="bg-slate-100 border-b border-slate-200">
-                <tr>
+                <tr className="[&>th]:border [&>th]:border-gray-200">
                   <th className="text-left px-2 py-2 w-2">No</th>
                   <th className="text-left px-4 py-2 w-100">Product</th>
                   <th className="text-left px-4 py-2">Size</th>
                   <th className="text-left px-4 py-2">Color</th>
                   <th className="text-right px-4 py-2">Qty</th>
                   <th className="text-right px-4 py-2">Price</th>
+                  <th className="text-right px-4 py-2 w-100">Total Price</th>
                   <th className="text-left px-4 py-2">Customer</th>
                   <th className="text-left px-4 py-2">Email</th>
                   <th className="text-left px-4 py-2">Mobile</th>
@@ -222,7 +223,7 @@ export default function OrdersPage() {
                   return (
                     <tr
                       key={order._id}
-                      className="border-b last:border-b-0 border-slate-100"
+                      className="border-b last:border-b-0 border-slate-100 [&>td]:border [&>td]:border-gray-200"
                     >
                       <td className="px-2 py-2">{id + 1 || "-"}</td>
                       <td className="px-4 py-2">
@@ -239,6 +240,9 @@ export default function OrdersPage() {
                       </td>
                       <td className="px-4 py-2 text-right">
                         ₹{firstItem?.price ?? order.price ?? "-"}
+                      </td>
+                      <td className="px-4 py-2 text-right">
+                        ₹{firstItem?.total ?? order.total ?? "-"}
                       </td>
                       <td className="px-4 py-2">
                         {order.customer?.fullName || "-"}
