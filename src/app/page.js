@@ -546,14 +546,13 @@
 //   );
 // }
 
-
-
 "use client";
 import { useState, useMemo } from "react";
 import InvoicePopup from "./Components/InvoicePopup/InvoicePopup";
 import emailjs from "emailjs-com";
 
 const productNames = [
+  "Neon Signature Oversized T-shirt",
   '"Hey Puddin" Regular Crop Top',
   "Beige Basic Oversized Tee",
   "Black Basic Oversized tee",
@@ -860,9 +859,11 @@ Created at: ${new Date(payload.createdAt).toLocaleString("en-IN")}
           process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
           process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
           {
-            to_email: email,
+            // to_email: email,
+            to_email: email || "",
+
             customerName: fullName,
-            order_details: orderSummary, 
+            order_details: orderSummary,
           },
           process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
         );
@@ -894,7 +895,6 @@ Created at: ${new Date(payload.createdAt).toLocaleString("en-IN")}
       setLoading(false);
     }
   };
-
 
   const handlePrint = () => {
     window.print();

@@ -291,7 +291,11 @@ export default function InvoicePopup({
                 <p>{lastOrder.customer?.fullName || "--"}</p>
                 <p>{lastOrder.customer?.city || ""}</p>
                 <p>Mobile: {lastOrder.customer?.phone || ""}</p>
-                <p>Email: {lastOrder.customer?.email || ""}</p>
+                {/* <p> {lastOrder.customer?.email || ""}</p> */}
+                {lastOrder.customer?.email !==
+                  "contact@tactlifestyle.store" && (
+                  <p>{lastOrder.customer?.email}</p>
+                )}
               </div>
 
               <div className="space-y-1 md:text-right">
