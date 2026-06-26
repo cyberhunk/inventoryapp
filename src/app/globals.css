@@ -45,6 +45,10 @@ body {
     display: none;
   }
 
+  .no-print {
+    display: none !important;
+  }
+
   /* sirf invoice + uske children dikhaye */
   #invoice,
   #invoice * {
