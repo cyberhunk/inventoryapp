@@ -203,18 +203,18 @@
 import { useEffect, useState } from "react";
 import logo from "../../../../public/logo.png";
 
-function toDatetimeLocalValue(dateInput) {
+function toDateInputValue(dateInput) {
   if (!dateInput) return "";
   const d = new Date(dateInput);
   if (Number.isNaN(d.getTime())) return "";
   const pad = (n) => String(n).padStart(2, "0");
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
-function formatInvoiceDate(datetimeLocalValue) {
-  if (!datetimeLocalValue) return "--";
-  const d = new Date(datetimeLocalValue);
-  return Number.isNaN(d.getTime()) ? "--" : d.toLocaleString();
+function formatInvoiceDate(dateValue) {
+  if (!dateValue) return "--";
+  const d = new Date(`${dateValue}T00:00:00`);
+  return Number.isNaN(d.getTime()) ? "--" : d.toLocaleDateString();
 }
 
 export default function InvoicePopup({
@@ -224,16 +224,14 @@ export default function InvoicePopup({
   handlePrint,
 }) {
   const [invoiceNumber, setInvoiceNumber] = useState("");
-  const [invoiceDateTime, setInvoiceDateTime] = useState("");
+  const [invoiceDate, setInvoiceDate] = useState("");
 
   useEffect(() => {
     if (!showInvoice || !lastOrder) return;
     const randomNum = Math.floor(100 + Math.random() * 900);
     const datePart = new Date().getTime();
     setInvoiceNumber(`INV-${datePart}-${randomNum}`);
-    setInvoiceDateTime(
-      toDatetimeLocalValue(lastOrder.createdAt || new Date())
-    );
+    setInvoiceDate(toDateInputValue(lastOrder.createdAt || new Date()));
   }, [showInvoice, lastOrder]);
 
   if (!showInvoice || !lastOrder) return null;
@@ -291,19 +289,19 @@ export default function InvoicePopup({
               </div>
 
               <div className="text-right text-xs text-slate-600">
-                <p>Invoice Date: {formatInvoiceDate(invoiceDateTime)}</p>
+                <p>Invoice Date: {formatInvoiceDate(invoiceDate)}</p>
                 <div className="mt-2 no-print">
                   <label
-                    htmlFor="invoice-date-time"
+                    htmlFor="invoice-date"
                     className="block text-[10px] text-slate-500 mb-1"
                   >
-                    Edit date &amp; time
+                    Edit date
                   </label>
                   <input
-                    id="invoice-date-time"
-                    type="datetime-local"
-                    value={invoiceDateTime}
-                    onChange={(e) => setInvoiceDateTime(e.target.value)}
+                    id="invoice-date"
+                    type="date"
+                    value={invoiceDate}
+                    onChange={(e) => setInvoiceDate(e.target.value)}
                     className="rounded border border-slate-300 px-2 py-1 text-xs text-slate-800 bg-white"
                   />
                 </div>
