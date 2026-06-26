@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
+import InvoicePopup from "../Components/InvoicePopup/InvoicePopup";
 
 // Modal कॉम्पोनेंट (इसमें कोई बदलाव नहीं)
-const OrderDetailsModal = ({ order, onClose }) => {
+const OrderDetailsModal = ({ order, onClose, onPrint }) => {
   if (!order) return null;
 
   const totalOrderValue = order.items.reduce(
@@ -68,7 +69,13 @@ const OrderDetailsModal = ({ order, onClose }) => {
             </table>
           </div>
         </div>
-        <div className="mt-6 text-right">
+        <div className="mt-6 flex justify-between items-center">
+            <button
+              onClick={() => onPrint(order)}
+              className="px-4 py-2 text-sm rounded-md bg-blue-600 text-white hover:bg-blue-500"
+            >
+              Print Bill
+            </button>
             <p className="text-xl font-bold text-slate-800">
                 Grand Total: ₹{totalOrderValue.toLocaleString()}
             </p>
@@ -84,6 +91,8 @@ export default function OrdersPage() {
   const [savingId, setSavingId] = useState(null);
   const [deletingId, setDeletingId] = useState(null);
   const [selectedOrder, setSelectedOrder] = useState(null);
+  const [showInvoice, setShowInvoice] = useState(false);
+  const [invoiceOrder, setInvoiceOrder] = useState(null);
 
   useEffect(() => {
     const loadOrders = async () => {
@@ -185,6 +194,15 @@ export default function OrdersPage() {
     setSelectedOrder(null);
   };
 
+  const handlePrintBill = (order) => {
+    setInvoiceOrder(order);
+    setShowInvoice(true);
+  };
+
+  const handlePrint = () => {
+    window.print();
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center text-slate-700">
@@ -259,9 +277,12 @@ export default function OrdersPage() {
                         {order.createdAt ? new Date(order.createdAt).toLocaleString() : "-"}
                       </td>
                       <td className="px-4 py-2">
-                        <div className="flex gap-2 justify-center">
+                        <div className="flex gap-2 justify-center flex-wrap">
                            <button onClick={() => handleViewDetails(order)} className="px-2 py-1 text-xs rounded-md bg-sky-600 text-white hover:bg-sky-500">
                             View Details
+                          </button>
+                          <button onClick={() => handlePrintBill(order)} className="px-2 py-1 text-xs rounded-md bg-blue-600 text-white hover:bg-blue-500">
+                            Print Bill
                           </button>
                           <button onClick={() => handleQuickEdit(order)} className="px-2 py-1 text-xs rounded-md bg-amber-500 text-white hover:bg-amber-400" disabled={savingId === order._id || deletingId === order._id}>
                             {savingId === order._id ? "Saving..." : "Edit"}
@@ -279,7 +300,13 @@ export default function OrdersPage() {
           </div>
         )}
       </div>
-      <OrderDetailsModal order={selectedOrder} onClose={closeModal} />
+      <OrderDetailsModal order={selectedOrder} onClose={closeModal} onPrint={handlePrintBill} />
+      <InvoicePopup
+        showInvoice={showInvoice}
+        lastOrder={invoiceOrder}
+        onClose={() => setShowInvoice(false)}
+        handlePrint={handlePrint}
+      />
     </div>
   );
 }
